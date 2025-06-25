@@ -25,15 +25,16 @@
         <div class="buscador">
             <div class="search-box">
                 <i class='bx bx-search'></i>
-                <input type="text" class="search-input" placeholder="Buscar">
+                <input id="buscador" type="text" class="search-input" placeholder="Buscar">
             </div>
+            <!--
             <select>
                 <option value="" disabled selected hidden>Filtrar</option>
                 <option>Todos</option>
                 <option>Categoría 1</option>
                 <option>Categoría 2</option>
                 <option>Categoría 3</option>
-            </select>
+            </select> -->
         </div>
         <div class="cards-grid" id="cards-container"></div>
     </div>
@@ -46,7 +47,7 @@
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
     <script src="./assets/js/include.js"></script>
-    <script src="./assets/js/renderProductos.js"></script>
+    <script type="module" src="./assets/js/buscador.js"></script>
 </body>
 
 </html>

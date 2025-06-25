@@ -61,13 +61,11 @@
         <div id="clientes-container"></div>
     </div>
 
-    <div class="container-fluid d-flex sticky-bottom justify-content-end">
-        <button type="button" class="btn btn-danger boton-contacto" href="./contacto.html">
-            <a href="./contacto.html">
-                <i class='bx bxs-user'></i>
-                Contacto</a>
-        </button>
-    </div>
+    <button type="button" class="btn btn-danger boton-contacto" href="./contacto.html">
+        <a href="./contacto.html">
+            <i class='bx bxs-user'></i>
+            Contacto</a>
+    </button>
 
     <div id="footer"></div>
 
@@ -75,10 +73,15 @@
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
     <script src="./assets/js/include.js"></script>
-    <script src="./assets/js/productosData.js"></script>
-    <script src="./assets/js/clientesData.js"></script>
-    <script src="./assets/js/renderClientes.js"></script>
-    <script src="./assets/js/renderProductosDestacados.js"></script>
+    <script type="module" src="./assets/js/renderClientes.js"></script>
+    <script type="module">
+        import { productos } from "./assets/js/data/productos.js";
+        import { renderCards } from "./assets/js/cardUtils.js";
+        document.addEventListener("DOMContentLoaded", () => {
+            const destacados = productos.filter(p => p.destacado);
+            renderCards(destacados);
+        });
+    </script>
 </body>
 
 </html>

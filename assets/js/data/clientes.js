@@ -1,4 +1,4 @@
-const clientes = [
+export const clientes = [
     {
         empresa: "Thermo Fisher",
         img: "./assets/img/thermo-fisher.jpg",
