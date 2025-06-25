@@ -15,7 +15,7 @@ function includeNav() {
         }
       });
     })
-    .carch(error => {
+    .catch(error => {
       console.error("Error cargando el nav:", error);
     })
 }
@@ -31,5 +31,7 @@ function includeFooter() {
     });
 }
 
-document.addEventListener("DOMContentLoaded", includeNav)
-document.addEventListener("DOMContentLoaded", includeFooter)
+document.addEventListener("DOMContentLoaded", () => {
+  includeNav();
+  includeFooter();
+})
