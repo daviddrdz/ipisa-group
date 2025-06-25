@@ -1,4 +1,4 @@
-function addCards() {
+function renderCards() {
     const container = document.getElementById("cards-container");
     productos.forEach(p => {
         const card = document.createElement("div");
@@ -15,4 +15,4 @@ function addCards() {
     });
 };
 
-document.addEventListener("DOMContentLoaded", addCards());
+document.addEventListener("DOMContentLoaded", renderCards());

@@ -1,4 +1,4 @@
-function addCards() {
+function renderCards() {
     const container = document.getElementById("cards-container");
     productos.forEach(p => {
         if (p.destacado) {
@@ -17,4 +17,4 @@ function addCards() {
     });
 }
 
-document.addEventListener("DOMContentLoaded", addCards())
+document.addEventListener("DOMContentLoaded", renderCards())
