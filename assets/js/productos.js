@@ -41,4 +41,18 @@ const productos = [
         href: "#",
         destacado: false,
     },
+    {
+        titulo: "Producto",
+        descripción: "Contenido de la card de ejemplo",
+        imagen: "./assets/img/producto-stock.jpg",
+        href: "#",
+        destacado: false,
+    },
+    {
+        titulo: "Producto",
+        descripción: "Contenido de la card de ejemplo",
+        imagen: "./assets/img/producto-stock.jpg",
+        href: "#",
+        destacado: false,
+    },
 ]
