@@ -1,3 +1,3 @@
 function botonContacto() {
-    window.location.href = "./contacto.html"
+    window.location.href = "./contacto.html";
 }

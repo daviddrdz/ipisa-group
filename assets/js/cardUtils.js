@@ -5,8 +5,8 @@ export function createCard(producto) {
        <img src="${producto.imagen}" class="card-img-top" alt="...">
         <div class="card-body">
             <h5 class="card-title">${producto.titulo}</h5>
-            <p class="card-text">${producto.descripcion}</p>
-            <a href="#" class="btn btn-danger">Más información</a>
+            <p class="card-text">${producto.shortDesc}</p>
+            <a href="./producto.html?id=${producto.id}" class="btn btn-danger">Más información</a>
         </div>
     `;
     return card;

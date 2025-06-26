@@ -3,14 +3,13 @@ function includeNav() {
     .then(response => response.text())
     .then(data => {
       document.getElementById("nav").innerHTML = data;
-      const path = window.location.pathname.split("/").pop();
+      const path = window.location.pathname.split("/").pop().split(".")[0];
       const navLinks = document.querySelectorAll("#nav a.nav-link");
 
       navLinks.forEach(link => {
         const href = link.getAttribute("href");
-        const trimmedhref = href.slice(2);
-
-        if (trimmedhref === path) {
+        const trimmedhref = href.substring(href.lastIndexOf("/") + 1, href.lastIndexOf("."));
+        if (trimmedhref.includes(path)) {
           link.classList.add("active-link");
         }
       });

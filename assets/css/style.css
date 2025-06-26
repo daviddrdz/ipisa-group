@@ -225,6 +225,10 @@ i {
   box-shadow: 12px 13px 24px 1px rgba(0, 0, 0, 0.67);
 }
 
+.card img {
+  padding: 30px;
+}
+
 /* Productos */
 .buscador {
   display: flex;
