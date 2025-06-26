@@ -7,8 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
     input.addEventListener("input", () => {
         const texto = input.value.toLowerCase();
         const filtrados = productos.filter(p =>
-            p.titulo.toLowerCase().includes(texto) ||
-            p.descripcion.toLowerCase().includes(texto)
+            p.titulo.toLowerCase().includes(texto)
         );
         renderCards(filtrados);
     });
