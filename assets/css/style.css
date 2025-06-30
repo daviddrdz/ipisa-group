@@ -173,36 +173,19 @@ h3 {
 }
 
 /* Pagina Empresa */
-.contenedor {
-    width: 80%;
-    margin: 50px auto 80px auto;
-
-    h2,
-    p {
-        color: black;
-    }
-
-    h2 {
-        margin-bottom: 18px;
-    }
-}
-
-.mision,
-.vision {
-    margin-bottom: 75px;
-}
 
 .mision-vision-politica {
     transition: all 0.7s;
 }
 
 .mision-vision-politica img {
-    width: 400px;
+    max-width: 500px;
+    min-width: 100px;
 }
 
 .mision-vision-politica img,
-h2,
-p {
+.mision-vision-politica h2,
+.mision-vision-politica p {
     transition: all 0.6s;
 }
 
@@ -210,10 +193,6 @@ p {
 .mision-vision-politica h2:hover,
 .mision-vision-politica p:hover {
     transform: scale(1.1);
-}
-
-.mision-vision-politica:hover {
-    transition: transform(1.1);
 }
 
 /* Footer */
@@ -269,7 +248,8 @@ i {
 }
 
 @media (width <=850px) {
-    footer h2 {
+    footer h2,
+    footer img {
         display: none;
     }
 }
