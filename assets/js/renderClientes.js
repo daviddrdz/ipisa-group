@@ -2,7 +2,7 @@ import { clientes } from "./data/clientes.js";
 
 function renderClientes() {
     const container = document.getElementById("clientes-container");
-    for (let i = 0; i < clientes.length;) {
+    for (let i = 0; i < clientes.length; ) {
         let row = document.createElement("div");
         row.className = "row d-flex align-items-center";
         for (let j = 0; j < 4 && i < clientes.length; i++, j++) {
@@ -11,10 +11,10 @@ function renderClientes() {
                     <img src="${clientes[i].img}">
                 </div>
                 `;
-            row.innerHTML += cliente
+            row.innerHTML += cliente;
         }
         container.appendChild(row);
-    };
+    }
 }
 
 document.addEventListener("DOMContentLoaded", renderClientes);
