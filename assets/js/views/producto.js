@@ -22,7 +22,8 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     document.getElementById("titulo").textContent = product.title;
-    document.getElementById("descripcion").textContent = product.longDesc;
+    document.getElementById("shortDesc").textContent = product.shortDesc;
+    document.getElementById("desc").textContent = product.desc;
     document.getElementById("imagen-principal").src = product.img;
     document.getElementById("img1").src = product.img;
     document.getElementById("img2").src = product.img;
