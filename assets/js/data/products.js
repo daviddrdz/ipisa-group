@@ -16,7 +16,7 @@ export const products = [
         category: "Básculas de cinta transportadora",
         shortDesc: "El sistema de báscula de cinta Bulk Pro Systems modelo N-62 está diseñado para aplicaciones de pesaje de alta resistencia.",
         desc:
-            "It will provide precise control feed to crushers, mills, screens and other processes at your facility. It can control production, regulate product load out and monitor product inventory while maintaining an accuracy of plus or minus 0.5%.",
+            "Proporcionará un control preciso de la alimentación a trituradoras, molinos, cribas y otros procesos en sus instalaciones. Puede controlar la producción, regular la descarga de productos y supervisar el inventario de productos, manteniendo una precisión de más o menos 0,5 %.",
         img: "./assets/img/products/cintas_transportadoras/N-62-1.jpg",
         href: "#",
         featured: false,
