@@ -160,13 +160,13 @@ h3 {
     }
 }
 
-@media (width <= 500px) {
+@media (width <=500px) {
     .desc {
         padding: 40px 50px;
     }
 }
 
-@media (width <= 380px) {
+@media (width <=380px) {
     .desc {
         padding: 40px 20px;
     }
@@ -249,6 +249,7 @@ i {
 }
 
 @media (width <=850px) {
+
     footer h2,
     footer img {
         display: none;
@@ -259,8 +260,10 @@ i {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
     gap: 1.5rem;
-    max-width: 1200px; /* opcional, para evitar que se estiren demasiado */
-    margin: 0 auto; /* 👈 centra el grid horizontalmente */
+    max-width: 1200px;
+    /* opcional, para evitar que se estiren demasiado */
+    margin: 0 auto;
+    /* 👈 centra el grid horizontalmente */
     width: 100%;
     padding: 0 1rem;
 }
@@ -347,7 +350,7 @@ select {
     color: rgb(184, 21, 21);
 }
 
-@media (width <= 991px) {
+@media (width <=991px) {
     .boton-contacto {
         display: none;
     }
@@ -390,6 +393,8 @@ select {
     padding: 20px;
     border-radius: 50px;
     transition: all 0.6s;
+    outline: none;
+    border: none;
 }
 
 .form-correo #enviar:hover {
