@@ -2,6 +2,7 @@ export const products = [
     {
         id: 1,
         title: "Modular Belt Scale System Model N-65",
+        category: "Basculas Dinámicas",
         shortDesc: "Basculas dinámicas",
         longDesc:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem Impsu",
@@ -12,6 +13,7 @@ export const products = [
     {
         id: 2,
         title: "Belt Scale System Model N-64",
+        category: "Basculas Dinámicas",
         shortDesc: "Basculas dinámicas",
         longDesc:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem Impsu",
@@ -22,6 +24,7 @@ export const products = [
     {
         id: 3,
         title: "Belt Scale System Model N-61",
+        category: "Basculas Dinámicas",
         shortDesc: "Basculas dinámicas",
         longDesc:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem Impsu",
@@ -32,6 +35,7 @@ export const products = [
     {
         id: 4,
         title: "Belt Scale System Model N-62",
+        category: "Basculas Dinámicas",
         shortDesc: "Basculas dinámicas",
         longDesc:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem Impsu",
@@ -42,6 +46,7 @@ export const products = [
     {
         id: 5,
         title: "Belt Damage Model BD-3C",
+        category: "Protección de bandas",
         shortDesc: "Protección de bandas",
         longDesc:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem Impsu",
@@ -52,6 +57,7 @@ export const products = [
     {
         id: 6,
         title: "Misalignment Switch Model BM-2 Belt",
+        category: "Protección de bandas",
         shortDesc: "Protección de bandas",
         longDesc:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem Impsu",
@@ -62,6 +68,7 @@ export const products = [
     {
         id: 7,
         title: "Pull Cord Switch Model SS-3",
+        category: "Protección de bandas",
         shortDesc: "Protección de bandas",
         longDesc:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem Impsu",
@@ -72,6 +79,7 @@ export const products = [
     {
         id: 8,
         title: "Belt Misalignment Switch Model BM-3C",
+        category: "Protección de bandas",
         shortDesc: "Protección de bandas",
         longDesc:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem Impsu",
@@ -82,6 +90,7 @@ export const products = [
     {
         id: 9,
         title: "Pull Cord Switch Model SS-2",
+        category: "Protección de bandas",
         shortDesc: "Protección de bandas",
         longDesc:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem Impsu",
@@ -92,6 +101,7 @@ export const products = [
     {
         id: 10,
         title: "Position Switch Model PS-3",
+        category: "Protección de bandas",
         shortDesc: "Protección de bandas",
         longDesc:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem Impsu",

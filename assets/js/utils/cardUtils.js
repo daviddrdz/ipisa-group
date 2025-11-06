@@ -5,7 +5,7 @@ export function createCard(product) {
        <img src="${product.img}" class="card-img-top" alt="...">
         <div class="card-body">
             <h5 class="card-title fs-5">${product.title}</h5>
-            <p class="card-text fs-6">${product.shortDesc}</p>
+            <p class="card-text fs-6">${product.category}</p>
             <a href="./producto.html?id=${product.id}" class="btn btn-danger fs-6">Más información</a>
         </div>
     `;
