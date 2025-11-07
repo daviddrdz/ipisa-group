@@ -195,29 +195,6 @@ export const products = [
             "Compatible con cintas transportadoras de tela, caucho y núcleo de acero, el modelo 50 protege los equipos de procesamiento posteriores al detectar la presencia de objetos metálicos potencialmente dañinos. Considerado el «caballo de batalla» de la línea de detectores de metales extraños de Bulk Pro Systems, el modelo 50 se puede adaptar para su uso con materiales transportados no magnéticos o minerales magnéticos y altamente conductivos. Se pueden utilizar empalmes metálicos y clips de reparación con este detector de metales. Está prefabricado para adaptarse a la mayoría de las cintas transportadoras CEMA. El detector de metales extraños modelo 50 puede ahorrarle tiempo de inactividad en su planta y costosas reparaciones debidas a la presencia de metales ferrosos y no ferrosos en su proceso.",
         img: "./assets/img/products/detectores_metales/Model-50_1.jpg",
         href: "#",
-        featured: true,
-    },
-    {
-        id: 19,
-        title: "Detector de metales modelo 100",
-        category: "Detectores de metales",
-        shortDesc: "El detector de metales modelo 100, cuando se instala en un sistema transportador, protege los equipos de procesamiento posteriores al detectar la presencia de objetos metálicos que podrían causar daños.",
-        desc:
-            "Está diseñado para detectar todo tipo de metales extraños, ferrosos o no ferrosos. Se pueden utilizar empalmes metálicos y/o clips de reparación con este detector de metales. El modelo 100 está prefabricado para adaptarse a la mayoría de las cintas transportadoras CEMA. La abertura es ajustable hasta 22″, lo que permite una profundidad máxima de carga de 18″. Las antenas sensoras están recubiertas de fibra de vidrio moldeada por compresión de alta resistencia. El sistema es robusto, ligero, compacto y fácil de instalar y mantener.",
-        img: "./assets/img/products/detectores_metales/Model-100_1.jpg",
-        href: "#",
         featured: false,
     },
-    {
-        id: 20,
-        title: "Detector de metales modelo 5500E1",
-        category: "Detectores de metales",
-        shortDesc: "El detector de metales modelo 5500E1, cuando se instala en un sistema transportador, protege los equipos de procesamiento posteriores al detectar la presencia de objetos metálicos que podrían causar daños.",
-        desc:
-            "Esta unidad de alta sensibilidad puede detectar metales tan pequeños como un cubo de 5/32″. La mayoría de las unidades de la competencia solo detectan esferas o cubos de hasta 1″. Está diseñada para detectar todo tipo de metales extraños, ferrosos o no ferrosos. Se pueden utilizar empalmes metálicos y/o clips de reparación con este detector de metales. El modelo 5500E1 está prefabricado para adaptarse a la mayoría de las cintas transportadoras CEMA. De fiabilidad probada en condiciones adversas, como polvo, humedad y vibraciones, el modelo 5500E1 de Bulk Pro Systems proporciona años de funcionamiento fiable y sin problemas.",
-        img: "./assets/img/products/detectores_metales/Model-5500E1_1.jpg",
-        href: "#",
-        featured: false,
-    },
-
 ];

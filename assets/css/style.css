@@ -86,6 +86,10 @@ nav {
 }
 
 .nav-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
     color: white;
     border-radius: 50px;
     margin: 0px 5px;
@@ -130,27 +134,47 @@ nav {
 
 /* Seccion */
 section {
-    height: 400px;
-    background-image: url("../img/misc/section-bg.jpg");
-    background-position: center;
-    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 650px;
+    overflow: hidden;
 }
 
-section h2,
-h3 {
-    text-shadow: 0px 0px 20px #000000;
+section .bg {
+    height: 300px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    filter: brightness(0.25);
+    z-index: -1;
 }
 
-.info {
+section .info {
+    position: relative;
+    z-index: 1;
     color: white;
-    /* width: 600px; */
     margin: 0 auto 0 auto;
-    padding-top: 130px;
     text-align: center;
 
     h2 {
         font-weight: 700;
     }
+}
+
+section img {
+    height: 300px;
+    filter: drop-shadow(0 0 10px #545454);
+}
+
+section h3 {
+    margin-top: 15px;
+    text-shadow: 0px 0px 10px #ffffff;
 }
 
 .desc {
@@ -167,6 +191,16 @@ h3 {
 }
 
 @media (width <=500px) {
+    section {
+        height: 300px;
+    }
+    section h3 {
+        display: none;
+    }
+    section img {
+        height: 150px;
+        margin-bottom: 30px;
+    }
     .desc {
         padding: 40px 50px;
     }
@@ -267,9 +301,7 @@ i {
     grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
     gap: 1.5rem;
     max-width: 1200px;
-    /* opcional, para evitar que se estiren demasiado */
     margin: 0 auto;
-    /* 👈 centra el grid horizontalmente */
     width: 100%;
     padding: 0 1rem;
 }

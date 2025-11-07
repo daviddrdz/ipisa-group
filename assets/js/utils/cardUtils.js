@@ -2,7 +2,7 @@ export function createCard(product) {
     const card = document.createElement("div");
     card.className = "card";
     card.innerHTML = `
-       <img src="${product.img}" class="card-img-top" alt="...">
+        <img src="${product.img}" class="card-img-top" alt="...">
         <div class="card-body">
             <h5 class="card-title fs-5">${product.title}</h5>
             <p class="card-text fs-6">${product.category}</p>
