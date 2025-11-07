@@ -1,0 +1,14 @@
+/* Pagina Empresa */
+.mision-vision-politica {
+    transition: all 0.7s;
+    img {
+        max-width: 500px;
+        min-width: 100px;
+    }
+    img, h2, p {
+        transition: all 0.6s ease;
+        &:hover {
+            transform: scale(1.05);
+        }
+    }
+}
