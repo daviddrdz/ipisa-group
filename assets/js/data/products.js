@@ -78,7 +78,7 @@ export const products = [
     },
     {
         id: 8,
-        title: "PS-2C Interruptor de posición modelo (interruptor de posición del disparador)",
+        title: "Interruptor de posición modelo PS-2C",
         category: "Interruptores para cintas transportadoras",
         shortDesc: "El interruptor de posición modelo PS-2C se utiliza para supervisar la posición de maquinaria pesada en movimiento.",
         desc:
@@ -89,7 +89,7 @@ export const products = [
     },
     {
         id: 9,
-        title: "PS-3 Interruptor de posición modelo (interruptor de posición del disparador)",
+        title: "Interruptor de posición modelo PS-3",
         category: "Interruptores para cintas transportadoras",
         shortDesc: "El interruptor de posición modelo PS-3 se utiliza para supervisar la posición de maquinaria pesada en movimiento.",
         desc:
