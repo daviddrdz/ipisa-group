@@ -17,6 +17,7 @@
         />
         <link href='https://cdn.boxicons.com/3.0.3/fonts/basic/boxicons.min.css' rel='stylesheet'>
         <link rel="stylesheet" href="./assets/css/style.css" />
+        <link rel="stylesheet" href="./assets/css/style-index.css" />
         <title>IPISA Group | Inicio</title>
     </head>
 
@@ -30,12 +31,17 @@
             <img class="bg" src="./assets/img/misc/section-bg.jpg">
             <div class="info">
                 <img src="./assets/img/misc/ipisa-logo.png">
-                <!-- <h2 class="fs-1">IPISA</h2> -->
                 <h3 class="fs-3">Más de 30 años de experiencia en la industria</h3>
             </div>
         </section>
 
-        <div class="container-sm desc mx-auto d-flex flex-column my-3">
+        <div class="container my-5 nuestros-productos">
+            <h2>Nuestros productos</h2>
+            <div class="categories" id="categories">
+            </div>
+        </div>
+
+        <div class="container desc mx-auto d-flex flex-column my-5">
             <div class="vanguardia">
                 <h2 class="fs-3">¡Vanguardia y Calidad!</h2>
                 <p class="fs-5">
@@ -53,10 +59,7 @@
             </div>
         </div>
 
-        <div class="container productos-destacados my-3">
-            <h2 class="mb-4 text-black text-center fs-2">Productos Destacados</h2>
-            <div class="cards-grid" id="cards-container"></div>
-        </div>
+        
 
         <div class="ubicacion container my-5">
             <h2 class="text-center mb-4 fs-2">Donde nos ubicamos</h2>
@@ -73,7 +76,6 @@
             </div>
         </div>
 
-        <div class="clientes container my-5"></div>
         <h2 class="text-center mb-4 fs-2">Nuestros clientes</h2>
         <div id="clientes-container"></div>
 
@@ -93,14 +95,7 @@
         ></script>
         <script src="./assets/js/partials/include.js"></script>
         <script src="./assets/js/views/main.js"></script>
+        <script type="module" src="./assets/js/features/renderCategories.js"></script>
         <script type="module" src="./assets/js/features/renderCustomers.js"></script>
-        <script type="module">
-            import { products } from "./assets/js/data/products.js";
-            import { renderCards } from "./assets/js/utils/cardUtils.js";
-            document.addEventListener("DOMContentLoaded", () => {
-                const featured = products.filter((p) => p.featured);
-                renderCards(featured);
-            });
-        </script>
     </body>
 </html>
