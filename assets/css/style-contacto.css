@@ -1,0 +1,48 @@
+/* Contacto */
+.form-correo input:not(#enviar),
+.form-correo textarea {
+    border: none;
+    outline: none;
+    border-bottom: 2px solid red;
+}
+
+.form-correo #enviar {
+    color: white;
+    background-color: rgb(255, 70, 70);
+    padding: 20px;
+    border-radius: 50px;
+    transition: all 0.6s;
+    outline: none;
+    border: none;
+}
+
+.form-correo #enviar:hover {
+    transform: scale(1.05);
+    background-color: rgb(184, 21, 21);
+}
+
+.form-correo label {
+    color: rgba(5, 5, 5, 0.725);
+}
+
+.redes-sociales {
+    color: black;
+    font-size: 25px;
+}
+
+#facebook,
+#youtube {
+    transition: all 0.4s;
+}
+
+#facebook:hover {
+    color: blue;
+}
+
+#youtube:hover {
+    color: red;
+}
+
+.redes-sociales:visited {
+    color: black;
+}
