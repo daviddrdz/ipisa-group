@@ -1,5 +1,5 @@
 import { products } from "../data/products.js";
-import { renderCards } from "../utils/cardUtils.js";
+import { renderCards } from "../features/renderCards.js";
 
 document.addEventListener("DOMContentLoaded", () => {
     const input = document.getElementById("buscador");
