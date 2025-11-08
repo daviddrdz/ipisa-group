@@ -297,61 +297,77 @@ footer {
     background-color: #1a1a1a;
     color: white;
     display: flex;
-    justify-content: space-around;
     align-items: center;
     margin-top: 100px;
     z-index: 999;
-    h2 {
-        font-size: 40px;
-    }
-    p {
-        margin: 0;
-    }
-    ul {
-        list-style: none;
-        display: flex;
-        flex-direction: column;
-        padding: 0;
-        font-size: 18px;
-    }
-    a {
-        margin: 5px 0;
-        display: flex;
-        align-items: center;
-        text-decoration: none;
-        transition: ease-out 0.3s;
-        color: white;
-        gap: 5px;
-        &:visited {
-            color: white;
-        }
-    }
-    a, p {
-        font-size: 20px;
-    }
+}
+footer h5 {
+    text-align: center;
+    margin: 0 0 15px 0;
+}
+footer h2 {
+    font-size: 40px;
+}
+footer p {
+    display: inline;
+    margin: 0;
+}
+footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+}
+footer a {
+    margin: 5px 0;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    gap: 5px;
+}
+footer a:visited {
+    color: white;
+}
+footer a, p {
+    font-size: 20px;
+}
+footer .img {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 50%;
+}
+footer .info {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+}
+footer .enlaces {
+    display: flex;
+    flex-direction: column;
+}
+footer .links {
+    transition: ease-out 0.3s;
+}
+footer .links:hover {
+    color: #ff4646;
+}
+footer .links:hover i {
+    color: #ff4646;
 }
 
-.links:hover {
-    color: rgb(255, 70, 70);
-
-    i {
-        color: rgb(255, 70, 70);
-    }
-}
-
-@media (width <=850px) {
-    footer h2,
-    footer img {
+@media (width <= 990px) {
+    footer .img {
         display: none;
     }
-    footer {
-        flex-direction: column;
-        .enlaces {
-            display: none;
-        }
-        a, p {
-            margin: 5px;
-            font-size: 20px;
-        }
+    footer .info {
+        width: 100%;
+    }
+}
+
+@media (width <=600px) {
+    footer .enlaces {
+        display: none;
     }
 }
