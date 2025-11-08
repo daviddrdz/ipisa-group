@@ -1,10 +1,15 @@
 import { categories } from "../data/categories.js";
 
+function redirectCategories(url) {
+    window.location.href = url;
+}
+
 function renderCategories() {
     const container = document.getElementById("categories");
     for (let i = 0; i < categories.length;i++) {
         let category = document.createElement("div");
         category.className = "category";
+        category.onclick = () => redirectCategories(categories[i].url);
         category.innerHTML = `
             <div class="image">
                 <img src="${categories[i].img}">
