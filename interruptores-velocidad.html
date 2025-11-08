@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+            crossorigin="anonymous"
+        />
+        <link href='https://cdn.boxicons.com/3.0.3/fonts/basic/boxicons.min.css' rel='stylesheet'>
+        <link rel="stylesheet" href="./assets/css/style.css" />
+        <link rel="stylesheet" href="./assets/css/style-categories.css" />
+        <title>IPISA Group | Interruptores de velocidad</title>
+    </head>
+
+    <body>
+        <div id="preloader">
+            <div class="spinner"></div>
+        </div>
+        <div id="nav"></div>
+
+        <section>
+            <div class="top-section container my-5">
+                <img class="bg" src="./assets/img/products/interruptores_cintas_transportadoras/BD-3_2.jpg" alt="background">
+                <div class="desc">
+                    <h1>Interruptores de velocidad</h1>
+                    <p>Los interruptores de velocidad para transportadores de Bulk Pro Systems son instrumentos de proceso diseñados para emitir una alarma cuando la rotación se detiene o se ralentiza.</p>
+                </div>
+            </div>
+        </section>
+
+        <div class="container my-5">
+            <div class="info">
+                <h3>Información</h3>
+                <p>Bulk Pro Systems ofrece una línea completa de interruptores de velocidad. Vienen de serie con una salida discreta o una salida lineal de 4-20 mA, o ambas. Disponemos de sensores de velocidad de proximidad o del diseño más innovador del mercado: acoplamiento magnético. Todos los interruptores para cintas transportadoras de Bulk Pro Systems están fabricados para las aplicaciones industriales más exigentes. Estos interruptores de velocidad se utilizan actualmente en cintas transportadoras de todo el mundo. Es importante elegir la tecnología de detección de velocidad más adecuada. Bulk Pro Systems puede recomendar el tipo de tecnología más adecuado en función del material y la aplicación.</p>
+            </div>
+            <div class="products">
+                <h3>Productos</h3>
+                <div class="cards-grid" id="cards-container"></div>
+            </div>
+        </div>
+
+        <div class="container my-5">
+        </div>
+
+        <div id="footer"></div>
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+            crossorigin="anonymous"
+        ></script>
+        <script src="./assets/js/partials/include.js"></script>
+        <script src="./assets/js/views/main.js"></script>
+        <script type="module">
+            import { renderCards } from "./assets/js/features/renderCards.js";
+            import { products } from "./assets/js/data/products.js";
+            document.addEventListener("DOMContentLoaded", () => {
+                const productos = products.filter((p) => p.category == "Interruptores de velocidad");
+                renderCards(productos);
+            })
+        </script>
+    </body>
+</html>

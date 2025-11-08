@@ -17,7 +17,8 @@
         />
         <link href='https://cdn.boxicons.com/3.0.3/fonts/basic/boxicons.min.css' rel='stylesheet'>
         <link rel="stylesheet" href="./assets/css/style.css" />
-        <title>IPISA Group | Inicio</title>
+        <link rel="stylesheet" href="./assets/css/style-categories.css" />
+        <title>IPISA Group | Muestradores</title>
     </head>
 
     <body>
@@ -26,11 +27,24 @@
         </div>
         <div id="nav"></div>
 
-        <div class="container my-5">
-            <div class="top-section">
-                <img src="" alt="background">
-                <h1>Basculas de cintas transportadoras</h1>
+        <section>
+            <div class="top-section container my-5">
+                <img class="bg" src="./assets/img/products/muestradores/2.png" alt="background">
+                <div class="desc my-5">
+                    <h1>Muestradores</h1>
+                    <p>Los Muestreadores para solidos o pulpas son sistema cuyo objetivo básico es obtener una muestra representativa de un flujo de material constante en estado húmedo o seco en caída libre, tubería o sobre la banda transportadora, a un tiempo determinado, colectando solo la cantidad necesaria en un depósito especial cerrado para manejo de laboratorio o como el cliente defina su destino final</p>
+                </div>
             </div>
+        </section>
+
+        <div class="container my-5">
+            <div class="info">
+                <h3>Información</h3>
+                <p> Las estaciones de muestreo trabajan preferentemente con líquidos y pulpas, donde se garantiza que el total del flujo será muestreado independientemente de sus características. Cuentas con un cortador de muestra que se mueve linealmente a través del flujo, tomando una selección proporcional del total del flujo </p>
+            </div>
+        </div>
+
+        <div class="container my-5">
         </div>
 
         <div id="footer"></div>
@@ -42,14 +56,5 @@
         ></script>
         <script src="./assets/js/partials/include.js"></script>
         <script src="./assets/js/views/main.js"></script>
-        <script type="module" src="./assets/js/features/renderCustomers.js"></script>
-        <script type="module">
-            import { products } from "./assets/js/data/products.js";
-            import { renderCards } from "./assets/js/utils/cardUtils.js";
-            document.addEventListener("DOMContentLoaded", () => {
-                const featured = products.filter((p) => p.featured);
-                renderCards(featured);
-            });
-        </script>
     </body>
 </html>
