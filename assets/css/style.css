@@ -132,10 +132,16 @@ body {
 }
 
 .cards-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    display: flex;
+    flex-wrap: wrap;
     gap: 1.5rem;
     width: 100%;
+}
+
+@media (width <= 1396px) {
+    .cards-grid {
+        justify-content: center;
+    }
 }
 
 .product-card {
@@ -196,30 +202,6 @@ body {
         cursor: pointer;
         transform: scale(1.01);
         box-shadow: 0px 13px 24px 1px rgba(0, 0, 0, 0.67);
-    }
-}
-
-.boton-contacto {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    font-size: 20px;
-    border-radius: 100px;
-    padding: 50px 20px;
-    margin: 40px;
-    transition: all 0.7s;
-    animation: pop-up;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-}
-
-.boton-contacto:hover {
-    color: rgb(184, 21, 21);
-}
-
-@media (width <=991px) {
-    .boton-contacto {
-        display: none;
     }
 }
 
@@ -323,8 +305,7 @@ footer {
         font-size: 40px;
     }
     p {
-        font-size: 23px;
-        font-weight: 600;
+        margin: 0;
     }
     ul {
         list-style: none;
@@ -334,18 +315,20 @@ footer {
         font-size: 18px;
     }
     a {
+        margin: 5px 0;
+        display: flex;
+        align-items: center;
         text-decoration: none;
         transition: ease-out 0.3s;
         color: white;
+        gap: 5px;
         &:visited {
             color: white;
         }
     }
-}
-
-i {
-    display: flex;
-    align-content: center;
+    a, p {
+        font-size: 20px;
+    }
 }
 
 .links:hover {
@@ -360,5 +343,15 @@ i {
     footer h2,
     footer img {
         display: none;
+    }
+    footer {
+        flex-direction: column;
+        .enlaces {
+            display: none;
+        }
+        a, p {
+            margin: 5px;
+            font-size: 20px;
+        }
     }
 }

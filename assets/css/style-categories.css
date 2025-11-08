@@ -1,0 +1,55 @@
+section {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    .bg {
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        object-fit: cover;
+        object-position: center;
+        filter: brightness(0.3);
+        z-index: -1;
+    }
+    .desc {
+        color: #ffffff;
+        h1 {
+            font-weight: 700;
+        }
+        p {
+            font-weight: 500;
+        }
+        h1, p {
+            margin: 0;
+        }
+    }
+}
+
+.info {
+    h3 {
+        margin-bottom: 15px;
+    }
+}
+
+.products {
+    margin-top: 40px;
+    h3 {
+        margin-bottom: 30px;
+    }
+}
+
+@media (width <= 766px) {
+    section {
+        height: 350px;
+        .desc {
+            h1 {
+                margin-bottom: 30px;
+            }
+        }
+    }
+}
