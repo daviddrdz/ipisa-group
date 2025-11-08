@@ -168,7 +168,7 @@ body {
             margin: 0 0 10px 0;
             font-size: 14px;
             font-weight: bolder;
-            color: red;
+            color: #ff4646;
         }
     }
     .title {
@@ -191,10 +191,10 @@ body {
             padding: 10px;
             border: none;
             outline: none;
-            background-color: rgb(255, 0, 0);
+            background-color: #ff4646;
             transition: all 0.2s ease;
             &:hover {
-                background-color: rgb(150, 0, 0)
+                background-color: #b53030;
             }
         }
     }
