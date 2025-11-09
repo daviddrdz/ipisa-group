@@ -28,35 +28,18 @@
         <div id="nav"></div>
 
         <div class="container my-5">
-
-            <div class="contenedor-producto gap-5 mt-5">
-                <img src="./assets/img/producto-stock.png" id="imagen-principal" />
-                <div class="contenedor-descripcion">
-                    <h1 id="titulo" class="fs-1"></h1>
-                    <p id="shortDesc" class="fs-5 mt-3 fs-5"></p>
-                    <button type="button" class="btn btn-danger mt-3 fs-6" id="boton-info">
-                        Solicitar más información
-                    </button>
+            <div class="producto-resumen">
+                <div class="producto-resumen__izquierda">
+                    <h1 id="titulo" class="producto-resumen__titulo"></h1>
+                    <p id="shortDesc" class="producto-resumen__shortDesc"></p>
+                    <button id="boton-info" class="producto-resumen__boton-responsive">Solicitar más información</button>
+                    <h2 class="producto-resumen__subtitulo-desc">Descripción</h2>
+                    <p id="desc" class="producto-resumen__desc"></p>
                 </div>
-            </div>
-
-            <div class="contenedor-info">
-
-                <h2 id="">Descripción</h2>
-                <p id="desc"></p>
-
-                <h2 class="fs-2 text-center">Imagenes</h2>
-                <div class="contenedor-imagenes">
-                    <div class="img-principal">
-                        <img id="img1" />
-                    </div>
-                    <div class="img-secundarias">
-                        <img id="img2" />
-                        <img id="img3" />
-                        <img id="img4" />
-                    </div>
+                <div class="producto-resumen__derecha">
+                    <img id="imagen-principal" class="producto-resumen__imagen" />
+                    <button id="boton-info" class="producto-resumen__boton">Solicitar más información</button>
                 </div>
-
             </div>
         </div>
 

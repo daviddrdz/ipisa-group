@@ -25,8 +25,4 @@ document.addEventListener("DOMContentLoaded", () => {
     document.getElementById("shortDesc").textContent = product.shortDesc;
     document.getElementById("desc").textContent = product.desc;
     document.getElementById("imagen-principal").src = product.img;
-    document.getElementById("img1").src = product.img;
-    document.getElementById("img2").src = product.img;
-    document.getElementById("img3").src = product.img;
-    document.getElementById("img4").src = product.img;
 });
