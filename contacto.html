@@ -3,6 +3,7 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="icon" href="./assets/img/misc/ipisa.ico" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
@@ -27,20 +28,77 @@
         </div>
         <div id="nav"></div>
 
-        <div class="container form-correo">
+        <section class="contacto-encabezado">
+            <div class="container my-5">
+                <img class="contacto-encabezado__bg" src="./assets/img/misc/contacto-bg.jpg" alt="background">
+                <div class="contacto-encabezado__info">
+                    <h1 class="contacto-encabezado__titulo">Contacto</h1>
+                    <p class="contacto-encabezado__rol">Gerente de ventas</p>
+                    <div class="contacto-encabezado__item">
+                        <span class="contacto-encabezado__icono">
+                            <i class="bx bx-envelope"></i>Correo
+                        </span>
+                        <span class="contacto-encabezado__texto">david.rodriguez@ipisagroup.com</span>
+                    </div>
+                    <div class="contacto-encabezado__item">
+                        <span class="contacto-encabezado__icono">
+                            <i class="bx bxs-phone"></i>Teléfono
+                        </span>
+                        <span class="contacto-encabezado__texto">55 555 555</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="contacto-info container my-5">
+            <div class="contacto-formulario" id="formulario">
+                <h2 class="contacto-formulario__titulo">Mandanos un correo</h2>
+                <form action="" method="POST" class="contacto-formulario__form">
+                    <label for="empresa" class="contacto-formulario__label">Empresa <span class="requerido">*</span></label>
+                    <input type="text" id="empresa" class="contacto-formulario__input" required />
+
+                    <label for="nombre" class="contacto-formulario__label">Nombre <span class="requerido">*</span></label>
+                    <input type="text" id="nombre" class="contacto-formulario__input" required />
+
+                    <label for="correo" class="contacto-formulario__label">Correo electrónico <span class="requerido">*</span></label>
+                    <input type="email" id="correo" class="contacto-formulario__input" required />
+
+                    <label for="telefono" class="contacto-formulario__label">Teléfono</label>
+                    <input type="tel" id="telefono" class="contacto-formulario__input" >
+
+                    <label for="mensaje" class="contacto-formulario__label">Mensaje <span class="requerido">*</span></label>
+                    <textarea id="mensaje" class="contacto-formulario__textarea" required></textarea>
+
+                    <p class="contacto-formulario__nota">Nota: Asegurese de haber llenado sus datos correctamente, de lo contrario no nos podremos poner en contacto con usted.</p>
+                    <input type="submit" value="Enviar" id="enviar" class="contacto-formulario__boton" />
+                </form>
+            </div>
+            <div class="contacto-ubicacion">
+                <h2 class="contacto-ubicacion__titulo">Nuestra ubicación</h2>
+                <iframe class="contacto-ubicacion__frame"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3754.329715515921!2d-99.09796902452169!3d19.783612981572222!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d18c73f0cda355%3A0xd266f723469a5a41!2sCam.%20Viejo%20a%20San%20Andr%C3%A9s%206%2C%20Sta%20Maria%2C%2055606%20Zumpango%20de%20Ocampo%2C%20M%C3%A9x.!5e0!3m2!1ses!2smx!4v1750192716922!5m2!1ses!2smx"
+                    style="border: 0"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                ></iframe>
+            </div>
+        </div>
+
+        <!-- <div class="container form-correo">
             <div class="row mt-5">
                 <div class="col d-flex justify-content-center flex-column mr-5">
                     <h2 class="text-center mt-3 fs-2">Mandanos un correo</h2>
                     <form class="d-flex flex-column my-5" action="" method="POST">
-                        <label for="empresa" class="fs-5">Empresa</label>
+                        <label for="empresa" class="fs-5">Empresa *</label>
                         <input type="text" id="empresa" class="mb-3 fs-6" required />
-                        <label for="nombre" class="fs-5">Nombre</label>
+                        <label for="nombre" class="fs-5">Nombre *</label>
                         <input type="text" id="nombre" class="mb-3" required />
-                        <label for="email" class="fs-5">Correo electrónico</label>
+                        <label for="email" class="fs-5">Correo electrónico *</label>
                         <input type="email" id="email" class="mb-3" required />
                         <label for="telefono" class="fs-5">Teléfono móvil</label>
                         <input type="tel" id="telefono" class="mb-3" />
-                        <label for="mensaje" class="fs-5">Mensaje</label>
+                        <label for="mensaje" class="fs-5">Mensaje *</label>
                         <textarea id="mensaje" class="mb-5" required></textarea>
                         <input type="submit" value="Enviar" id="enviar" class="fs-5" />
                     </form>
@@ -63,45 +121,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row mb-5">
-                <div class="col d-flex flex-column">
-                    <h2 class="text-center mt-5 fs-2">Nuestro gerente de ventas</h2>
-                    <div class="contacto-ventas container-fluid d-flex flex-column mt-3">
-                        <div>
-                            <h4 class="fs-3">Correo</h4>
-                            <p class="fs-5">david.rodriguez@ipisagroup.com</p>
-                        </div>
-                        <div>
-                            <h4 class="fs-3">Teléfono</h4>
-                            <p class="fs-5">55 555 555</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col d-flex flex-column">
-                    <h2 class="text-center mt-5">Nuestras redes sociales</h2>
-                    <div class="contenedor-redes container d-flex justify-content-around mt-3">
-                        <a
-                            class="redes-sociales fs-3"
-                            id="facebook"
-                            href="https://www.facebook.com/ipisagroup"
-                            target="_blank"
-                        >
-                            <i class="bx bxl-facebook-circle"></i>
-                            Facebook
-                        </a>
-                        <a
-                            class="redes-sociales fs-3"
-                            id="youtube"
-                            href="https://www.youtube.com/channel/UCrXeSVAKdXf13e0RF8grQIg?view_as=subscriber"
-                            target="_blank"
-                        >
-                            <i class="bx bxl-youtube"></i>
-                            Youtube
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
+        </div> -->
 
         <div id="footer"></div>
 
