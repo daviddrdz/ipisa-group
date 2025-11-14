@@ -1,7 +1,7 @@
 export const customers = [
     {
         name: "Thermo Fisher",
-        img: "./assets/img/customers/thermo-fisher.jpg",
+        img: "./assets/img/customers/thermo-fisher.png",
     },
     {
         name: "Fresnillo",
@@ -29,7 +29,7 @@ export const customers = [
     },
     {
         name: "CFE",
-        img: "./assets/img/customers/cfe.jpg",
+        img: "./assets/img/customers/cfe.png",
     },
     {
         name: "Minera Autlan",
@@ -45,11 +45,11 @@ export const customers = [
     },
     {
         name: "Cemento Cruz Azul",
-        img: "./assets/img/customers/cruz-azul.jpg",
+        img: "./assets/img/customers/cruz-azul.png",
     },
     {
         name: "Grupo Mexico",
-        img: "./assets/img/customers/grupomex.jpg",
+        img: "./assets/img/customers/grupomex.png",
     },
     {
         name: "GoldCorp",
