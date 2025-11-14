@@ -4,13 +4,13 @@ document.addEventListener("DOMContentLoaded", () => {
     const params = new URLSearchParams(window.location.search);
     const id = parseInt(params.get("id"));
     const product = products.find((p) => p.id === id);
-    const btn = document.getElementById("boton-info");
+    const botones = document.querySelectorAll(".boton-info")
 
-    if (btn) {
+    botones.forEach(btn => {
         btn.addEventListener("click", () => {
             window.location.href = `./contacto.html?id=${product.id}`;
-        });
-    }
+        })
+    })
 
     if (!product) {
         document.body.innerHTML = `
