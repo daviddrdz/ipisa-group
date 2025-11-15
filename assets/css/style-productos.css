@@ -1,25 +1,22 @@
-body {
-    h2 {
-        margin-bottom: 25px;
-    }
+.productos__titulo {
+    margin: 0 0 25px 0;
 }
 
-.buscador {
+.productos__buscador {
     display: flex;
     justify-content: space-between;
     margin-bottom: 30px;
 }
-
-.search-box {
+.productos__search-box {
     position: relative;
     width: fit-content;
-    i {
-        position: absolute;
-        top: 50%;
-        transform: translateY(-50%);
-        pointer-events: none;
-        font-size: 18px;
-    }
+}
+.productos__search-icon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+    font-size: 18px;
 }
 
 .search-input {

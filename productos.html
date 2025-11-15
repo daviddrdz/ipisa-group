@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="icon" href="./assets/img/misc/ipisa.ico" />
+        <link rel="icon" href="/assets/img/misc/ipisa.ico" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
@@ -17,8 +17,8 @@
             crossorigin="anonymous"
         />
         <link href='https://cdn.boxicons.com/3.0.3/fonts/basic/boxicons.min.css' rel='stylesheet'>
-        <link rel="stylesheet" href="./assets/css/style.css" />
-        <link rel="stylesheet" href="./assets/css/style-productos.css" />
+        <link rel="stylesheet" href="/assets/css/style.css" />
+        <link rel="stylesheet" href="/assets/css/style-productos.css" />
         <title>IPISA Group | Productos</title>
     </head>
 
@@ -28,14 +28,13 @@
         </div>
         <div id="nav"></div>
 
-        <div class="container my-5">
-            <h2>Nuestros productos</h2>
+        <div class="productos container my-5">
+            <h2 class="productos__titulo">Nuestros productos</h2>
             <div class="categories" id="categories"></div>
-
-            <h2>Todos los productos</h2>
-            <div class="buscador">
-                <div class="search-box">
-                    <i class="bx bx-search"></i>
+            <h2 class="productos__titulo">Todos los productos</h2>
+            <div class="productos__buscador">
+                <div class="productos__search-box">
+                    <i class="bx bx-search productos__search-icon"></i>
                     <input id="buscador" type="text" class="search-input fs-5" placeholder="Buscar" />
                 </div>
             </div>
@@ -49,9 +48,9 @@
             integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
             crossorigin="anonymous"
         ></script>
-        <script src="./assets/js/partials/include.js"></script>
-        <script type="module" src="./assets/js/features/renderCategories.js"></script>
-        <script type="module" src="./assets/js/features/search.js"></script>
-        <script src="./assets/js/views/main.js"></script>
+        <script src="/assets/js/partials/include.js"></script>
+        <script type="module" src="/assets/js/features/renderCategories.js"></script>
+        <script type="module" src="/assets/js/features/search.js"></script>
+        <script src="/assets/js/views/main.js"></script>
     </body>
 </html>
