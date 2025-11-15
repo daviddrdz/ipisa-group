@@ -1,4 +1,4 @@
-import { categories } from "../data/categories.js";
+import { categories } from "/assets/js/data/categories.js";
 
 function redirectCategories(url) {
     window.location.href = url;

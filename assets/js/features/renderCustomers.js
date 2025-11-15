@@ -1,4 +1,4 @@
-import { customers } from "../data/customers.js";
+import { customers } from "/assets/js/data/customers.js";
 
 function renderCustomers() {
     const container = document.getElementById("clientes-container");

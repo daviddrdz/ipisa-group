@@ -1,4 +1,4 @@
-import { products } from "../data/products.js";
+import { products } from "/assets/js/data/products.js";
 
 document.addEventListener("DOMContentLoaded", () => {
     const params = new URLSearchParams(window.location.search);

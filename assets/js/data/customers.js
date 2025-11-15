@@ -1,58 +1,58 @@
 export const customers = [
     {
         name: "Thermo Fisher",
-        img: "./assets/img/customers/thermo-fisher.png",
+        img: "/assets/img/customers/thermo-fisher.png",
     },
     {
         name: "Fresnillo",
-        img: "./assets/img/customers/fresnillo.png",
+        img: "/assets/img/customers/fresnillo.png",
     },
     {
         name: "Batrinsa",
-        img: "./assets/img/customers/batrinsa.png",
+        img: "/assets/img/customers/batrinsa.png",
     },
     {
         name: "Calidra",
-        img: "./assets/img/customers/calidra.png",
+        img: "/assets/img/customers/calidra.png",
     },
     {
         name: "m3",
-        img: "./assets/img/customers/m3.png",
+        img: "/assets/img/customers/m3.png",
     },
     {
         name: "Minera Frisco",
-        img: "./assets/img/customers/frisco.png",
+        img: "/assets/img/customers/frisco.png",
     },
     {
         name: "Fimsa",
-        img: "./assets/img/customers/fimsa.png",
+        img: "/assets/img/customers/fimsa.png",
     },
     {
         name: "CFE",
-        img: "./assets/img/customers/cfe.png",
+        img: "/assets/img/customers/cfe.png",
     },
     {
         name: "Minera Autlan",
-        img: "./assets/img/customers/minera-autlan.png",
+        img: "/assets/img/customers/minera-autlan.png",
     },
     {
         name: "Petimex",
-        img: "./assets/img/customers/petimex.png",
+        img: "/assets/img/customers/petimex.png",
     },
     {
         name: "Holcim",
-        img: "./assets/img/customers/holcim.png",
+        img: "/assets/img/customers/holcim.png",
     },
     {
         name: "Cemento Cruz Azul",
-        img: "./assets/img/customers/cruz-azul.png",
+        img: "/assets/img/customers/cruz-azul.png",
     },
     {
         name: "Grupo Mexico",
-        img: "./assets/img/customers/grupomex.png",
+        img: "/assets/img/customers/grupomex.png",
     },
     {
         name: "GoldCorp",
-        img: "./assets/img/customers/goldcorp.svg",
+        img: "/assets/img/customers/goldcorp.svg",
     },
 ];

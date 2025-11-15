@@ -1,5 +1,5 @@
 function redirectCard(id) {
-    window.location.href = `./producto.html?id=${id}`;
+    window.location.href = `/productos/producto.html?id=${id}`;
 }
 
 export function createCard(product) {
@@ -17,7 +17,7 @@ export function createCard(product) {
             <p>${product.title}</p>
         </div>
         <div class="info">
-            <button onclick="location.href='./producto.html?id=${product.id}';">Más información</button>
+            <button onclick="location.href='/productos/producto.html?id=${product.id}';">Más información</button>
         </div>
     `;
     return card;

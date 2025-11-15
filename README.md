@@ -8,4 +8,3 @@ Pagina web para la empresa Ipisa Group
 - Agregar pagina de servicios.html
 - Hacer funcional el formulario de contacto.html
 - Modificar archivos css
-- Modificar estructura de archivos

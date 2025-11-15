@@ -1,5 +1,5 @@
 function includeNav() {
-    fetch("./assets/components/nav.html")
+    fetch("/assets/components/nav.html")
         .then((response) => response.text())
         .then((data) => {
             document.getElementById("nav").innerHTML = data;
@@ -23,7 +23,7 @@ function includeNav() {
 }
 
 function includeFooter() {
-    fetch("./assets/components/footer.html")
+    fetch("/assets/components/footer.html")
         .then((response) => response.text())
         .then((data) => {
             document.getElementById("footer").innerHTML = data;

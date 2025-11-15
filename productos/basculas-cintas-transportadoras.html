@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="icon" href="./assets/img/misc/ipisa.ico" />
+        <link rel="icon" href="/assets/img/misc/ipisa.ico" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
@@ -17,8 +17,8 @@
             crossorigin="anonymous"
         />
         <link href='https://cdn.boxicons.com/3.0.3/fonts/basic/boxicons.min.css' rel='stylesheet'>
-        <link rel="stylesheet" href="./assets/css/style.css" />
-        <link rel="stylesheet" href="./assets/css/style-categories.css" />
+        <link rel="stylesheet" href="/assets/css/style.css" />
+        <link rel="stylesheet" href="/assets/css/style-categories.css" />
         <title>IPISA Group | Basculas de cintas transportadoras</title>
     </head>
 
@@ -30,7 +30,7 @@
 
         <section class="categoria-encabezado">
             <div class="categoria-encabezado__info container my-5">
-                <img class="categoria-encabezado__bg" src="./assets/img/products/cintas_transportadoras/N-64-2.jpg" alt="background">
+                <img class="categoria-encabezado__bg" src="/assets/img/products/cintas_transportadoras/N-64-2.jpg" alt="background">
                 <div class="categoria-encabezado__desc">
                     <h1 class="categoria-encabezado__titulo">Basculas de cintas transportadoras</h1>
                     <p class="categoria-encabezado__texto">Una báscula de cinta transportadora es un dispositivo que mide continuamente el material a granel a medida que se desplaza por una cinta transportadora.</p>
@@ -59,16 +59,16 @@
             integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
             crossorigin="anonymous"
         ></script>
-        <script src="./assets/js/partials/include.js"></script>
-        <script src="./assets/js/views/main.js"></script>
+        <script src="/assets/js/partials/include.js"></script>
+        <script src="/assets/js/views/main.js"></script>
         <script type="module">
-            import { renderCards } from "./assets/js/features/renderCards.js";
-            import { products } from "./assets/js/data/products.js";
+            import { renderCards } from "/assets/js/features/renderCards.js";
+            import { products } from "/assets/js/data/products.js";
             document.addEventListener("DOMContentLoaded", () => {
                 const productos = products.filter((p) => p.category == "Báscula de cinta transportadora");
                 renderCards(productos);
             })
         </script>
-        <script src="./assets/js/views/categorias.js"></script>
+        <script src="/assets/js/views/categorias.js"></script>
     </body>
 </html>

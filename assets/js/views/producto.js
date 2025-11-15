@@ -1,4 +1,4 @@
-import { products } from "../data/products.js";
+import { products } from "/assets/js/data/products.js";
 
 document.addEventListener("DOMContentLoaded", () => {
     const params = new URLSearchParams(window.location.search);
@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     botones.forEach(btn => {
         btn.addEventListener("click", () => {
-            window.location.href = `./contacto.html?id=${product.id}`;
+            window.location.href = `/contacto.html?id=${product.id}`;
         })
     })
 
