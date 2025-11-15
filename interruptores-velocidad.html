@@ -28,28 +28,28 @@
         </div>
         <div id="nav"></div>
 
-        <section>
-            <div class="top-section container my-5">
-                <img class="bg" src="./assets/img/products/interruptores_cintas_transportadoras/BD-3_2.jpg" alt="background">
-                <div class="desc">
-                    <h1>Interruptores de velocidad</h1>
-                    <p>Los interruptores de velocidad para transportadores de Bulk Pro Systems son instrumentos de proceso diseñados para emitir una alarma cuando la rotación se detiene o se ralentiza.</p>
+        <section class="categoria-encabezado">
+            <div class="categoria-encabezado__info container my-5">
+                <img class="categoria-encabezado__bg" src="./assets/img/products/interruptores_cintas_transportadoras/BD-3_2.jpg" alt="background">
+                <div class="categoria-encabezado__desc">
+                    <h1 class="categoria-encabezado__titulo">Interruptores de velocidad</h1>
+                    <p class="categoria-encabezado__texto">Los interruptores de velocidad para transportadores de Bulk Pro Systems son instrumentos de proceso diseñados para emitir una alarma cuando la rotación se detiene o se ralentiza.</p>
                 </div>
             </div>
         </section>
 
-        <div class="container my-5">
-            <div class="info">
-                <h3>Información</h3>
-                <p>Bulk Pro Systems ofrece una línea completa de interruptores de velocidad. Vienen de serie con una salida discreta o una salida lineal de 4-20 mA, o ambas. Disponemos de sensores de velocidad de proximidad o del diseño más innovador del mercado: acoplamiento magnético. Todos los interruptores para cintas transportadoras de Bulk Pro Systems están fabricados para las aplicaciones industriales más exigentes. Estos interruptores de velocidad se utilizan actualmente en cintas transportadoras de todo el mundo. Es importante elegir la tecnología de detección de velocidad más adecuada. Bulk Pro Systems puede recomendar el tipo de tecnología más adecuado en función del material y la aplicación.</p>
+        <div class="categoria-info container my-5">
+            <div class="categoria-info__desc">
+                <h3 class="categoria-info__desc-titulo">Información</h3>
+                <p class="categoria-info__texto" id="texto">Bulk Pro Systems ofrece una línea completa de interruptores de velocidad. Vienen de serie con una salida discreta o una salida lineal de 4-20 mA, o ambas.<br><br>Disponemos de sensores de velocidad de proximidad o del diseño más innovador del mercado: acoplamiento magnético.<br><br>Todos los interruptores para transportadores de Bulk Pro Systems están fabricados para las aplicaciones industriales más exigentes. Estos interruptores de velocidad se utilizan actualmente en transportadores de todo el mundo.<br><br>Es importante elegir la tecnología de detección de velocidad más adecuada. Bulk Pro Systems puede recomendar el tipo de tecnología más adecuado en función del material y la aplicación.</p>
             </div>
-            <div class="products">
-                <h3>Productos</h3>
+            <div class="categoria-info__accion">
+                <button class="categoria-info__boton" id="botonMostrar"><i class='bx  bx-arrow-down-stroke'></i> Mostrar mas</button>
+            </div>
+            <div class="categoria-info__productos">
+                <h3 class="categoria-info__productos-titulo">Productos</h3>
                 <div class="cards-grid" id="cards-container"></div>
             </div>
-        </div>
-
-        <div class="container my-5">
         </div>
 
         <div id="footer"></div>
@@ -61,11 +61,12 @@
         ></script>
         <script src="./assets/js/partials/include.js"></script>
         <script src="./assets/js/views/main.js"></script>
+        <script src="./assets/js/views/categorias.js"></script>
         <script type="module">
             import { renderCards } from "./assets/js/features/renderCards.js";
             import { products } from "./assets/js/data/products.js";
             document.addEventListener("DOMContentLoaded", () => {
-                const productos = products.filter((p) => p.category == "Interruptores de velocidad");
+                const productos = products.filter((p) => p.category == "Interruptor de velocidad");
                 renderCards(productos);
             })
         </script>

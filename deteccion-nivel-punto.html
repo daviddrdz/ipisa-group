@@ -19,7 +19,7 @@
         <link href='https://cdn.boxicons.com/3.0.3/fonts/basic/boxicons.min.css' rel='stylesheet'>
         <link rel="stylesheet" href="./assets/css/style.css" />
         <link rel="stylesheet" href="./assets/css/style-categories.css" />
-        <title>IPISA Group | Detectores de metales</title>
+        <title>IPISA Group | Deteccion de nivel de punto</title>
     </head>
 
     <body>
@@ -28,28 +28,28 @@
         </div>
         <div id="nav"></div>
 
-        <section>
-            <div class="top-section container my-5">
-                <img class="bg" src="./assets/img/products/detectores_metales/bg.jpg" alt="background">
-                <div class="desc">
-                    <h1>Detectores de metales</h1>
-                    <p>El detector de metales para cintas transportadoras está diseñado para detectar metales ferrosos y no ferrosos en una cinta transportadora en movimiento.</p>
+        <section class="categoria-encabezado">
+            <div class="categoria-encabezado__info container my-5">
+                <img class="categoria-encabezado__bg" src="./assets/img/products/deteccion_nivel_punto/Rotary-Level-Switches_3.jpg" alt="background">
+                <div class="categoria-encabezado__desc">
+                    <h1 class="categoria-encabezado__titulo">Detección de nivel de punto</h1>
+                    <p class="categoria-encabezado__texto">Bulk Pro Systems cuenta con una línea completa de dispositivos de detección de nivel de punto para su uso en los mercados de polvos y sólidos a granel, así como en algunas aplicaciones con líquidos.</p>
                 </div>
             </div>
         </section>
 
-        <div class="container my-5">
-            <div class="info">
-                <h3>Información</h3>
-                <p>Bulk Pro Systems distribuye muchos tipos diferentes de detectores de metales y determinará cuál es el más adecuado para su aplicación. Resistentes y fiables, los detectores de metales extraños de Bulk Pro Systems están diseñados para detectar y discriminar entre materiales conductores y metales, tanto magnéticos como no magnéticos, ferrosos y no ferrosos. Nuestros detectores son compatibles con cintas transportadoras de tela y núcleo de acero. Protegen los equipos de procesamiento posteriores al detectar la presencia de objetos metálicos potencialmente dañinos. Tanto si busca piezas metálicas grandes como muy pequeñas, Bulk Pro Systems tiene un detector que se adapta a su aplicación.</p>
+        <div class="categoria-info container my-5">
+            <div class="categoria-info__desc">
+                <h3 class="categoria-info__desc-titulo">Información</h3>
+                <p class="categoria-info__texto" id="texto">Estos detectores se pueden utilizar para aplicaciones de nivel alto, bajo y medio en prácticamente cualquier material.<br><br>Algunas aplicaciones comunes en las que se utilizan detectores de nivel son la prevención de atascos en tolvas, desbordamientos de contenedores, niveles altos en cintas transportadoras apiladoras, detección de niveles bajos en tolvas y funiles, y silos y profundidad de lechos en cintas transportadoras mecánicas, por nombrar algunas.<br><br>Es importante elegir la tecnología de detección de nivel más adecuada.<br><br>Bulk Pro Systems puede recomendar el tipo de tecnología adecuado en función del material y la aplicación.</p>
             </div>
-            <div class="products">
-                <h3>Productos</h3>
+            <div class="categoria-info__accion">
+                <button class="categoria-info__boton" id="botonMostrar"><i class='bx  bx-arrow-down-stroke'></i> Mostrar mas</button>
+            </div>
+            <div class="categoria-info__productos">
+                <h3 class="categoria-info__productos-titulo">Productos</h3>
                 <div class="cards-grid" id="cards-container"></div>
             </div>
-        </div>
-
-        <div class="container my-5">
         </div>
 
         <div id="footer"></div>
@@ -61,11 +61,12 @@
         ></script>
         <script src="./assets/js/partials/include.js"></script>
         <script src="./assets/js/views/main.js"></script>
+        <script src="./assets/js/views/categorias.js"></script>
         <script type="module">
             import { renderCards } from "./assets/js/features/renderCards.js";
             import { products } from "./assets/js/data/products.js";
             document.addEventListener("DOMContentLoaded", () => {
-                const productos = products.filter((p) => p.category == "Detectores de metales");
+                const productos = products.filter((p) => p.category == "Detector de nivel de punto");
                 renderCards(productos);
             })
         </script>

@@ -19,7 +19,7 @@
         <link href='https://cdn.boxicons.com/3.0.3/fonts/basic/boxicons.min.css' rel='stylesheet'>
         <link rel="stylesheet" href="./assets/css/style.css" />
         <link rel="stylesheet" href="./assets/css/style-categories.css" />
-        <title>IPISA Group | Dosificadores</title>
+        <title>IPISA Group | Muestreadores</title>
     </head>
 
     <body>
@@ -28,13 +28,12 @@
         </div>
         <div id="nav"></div>
 
-
         <section class="categoria-encabezado">
             <div class="categoria-encabezado__info container my-5">
-                <img class="categoria-encabezado__bg" src="./assets/img/products/dosificadores/bg.png" alt="background">
-                <div class="categoria-encabezado__desc">
-                    <h1 class="categoria-encabezado__titulo">Dosificadores</h1>
-                    <p class="categoria-encabezado__texto">Los dosificadores de pulpas o solidos de Bulk Pro puede ofrecer una alimentación con control de pesaje precisa de materiales industriales a velocidades de alimentación moderadas. Su diseño proporciona una estructura de pesaje fuerte y robusta y permite un mantenimiento rápido y sencillo.</p>
+                <img class="categoria-encabezado__bg" src="./assets/img/products/muestradores/2.png" alt="background">
+                <div class="categoria-encabezado__desc my-5">
+                    <h1 class="categoria-encabezado__titulo">Muestreadores</h1>
+                    <p class="categoria-encabezado__texto">Los Muestreadores objetivo básico es obtener una muestra representativa de un flujo de material constante en estado húmedo o seco en caída libre, tubería o sobre la banda transportadora, a un tiempo determinado, colectando solo la cantidad necesaria en un depósito especial cerrado</p>
                 </div>
             </div>
         </section>
@@ -42,7 +41,7 @@
         <div class="categoria-info container my-5">
             <div class="categoria-info__desc">
                 <h3 class="categoria-info__desc-titulo">Información</h3>
-                <p class="categoria-info__texto" id="texto">Los alimentadores BULK Pro ofrecen una alimentación por pesaje precisa de materiales industriales a velocidades de alimentación moderadas. Su diseño de bastidor en voladizo con canal moldeado proporciona una estructura de pesaje fuerte y robustay permite un mantenimiento rápido y sencillo. Con varias opciones disponibles, para optimizar el rendimiento de su proceso y cumple con sus expectativas de rendimiento y fiabilidad.<br><br>El material se introduce en el alimentador a través de una sección de entrada equipada ajustable para controlar la entrada de pulpa o material. El conjunto de báscula/plataforma de pesaje mide la fuerza gravitacional del material y convierte esta medición de fuerza en una señal de salida eléctrica proporcional a la carga de entrada. Un sensor de velocidad digital monitoriza continuamente la velocidad de dosificación. El sistema electrónico basado en microprocesador integra las dos señales para generar y mostrar la velocidad real y el peso total alimentado. El sistema electrónico también proporciona una señal de salida para fines de control y monitorización. Para obtener más información sobre la serie de integradores electrónicos.</p>
+                <p class="categoria-info__texto" id="texto">Las estaciones de muestreo trabajan preferentemente con líquidos y pulpas, donde se garantiza que el total del flujo será muestreado independientemente de sus características. Cuentas con un cortador de muestra que se mueve linealmente a través del flujo, tomando una selección proporcional del total del flujo.<br><br>Normalmente los sistemas de muestreo cuentas con una unidad primaria derivado de los altos flujos de producto que maneje el proceso, para la reducción de material la mayoría de las veces se requiere que el sistema sea complementado con un muestreador secundario y hasta terciario en función de la cantidad de muestra que se requiera enviar al laboratorio para su análisis.<br><br>Los labios del cortador, son ajustables. La orientación del cortador es muy importante con respecto a la dirección de la entrada de flujo. Los mecanismos del muestreador son protegidos de salpicaduras del flujo de material para evitar daños en los componentes. La muestra de material es tomada por incrementos tantos sean necesarios para lograr la cantidad de muestra requerida para complementar el proceso de toma de muestra. Los sistemas incluyen arreglos para la descarga de la muestra controlados a través de un sistema automático de programación en PLC o DCS. </p>
             </div>
             <div class="categoria-info__accion">
                 <button class="categoria-info__boton" id="botonMostrar"><i class='bx  bx-arrow-down-stroke'></i> Mostrar mas</button>
@@ -67,7 +66,7 @@
             import { renderCards } from "./assets/js/features/renderCards.js";
             import { products } from "./assets/js/data/products.js";
             document.addEventListener("DOMContentLoaded", () => {
-                const productos = products.filter((p) => p.category == "Dosificador");
+                const productos = products.filter((p) => p.category == "Muestreador");
                 renderCards(productos);
             })
         </script>

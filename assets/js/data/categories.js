@@ -2,17 +2,17 @@ export const categories = [
     {
         category: "Básculas de cinta transportadora",
         img: "./assets/img/products/cintas_transportadoras/N-64-1.jpg",
-        url: "./cintas-transportadoras.html"
+        url: "./basculas-cintas-transportadoras.html"
     },
     {
         category: "Interruptores para cintas transportadoras",
         img: "./assets/img/products/interruptores_cintas_transportadoras/BD-3_1.jpg",
-        url: "./interruptores-cintas.html"
+        url: "./interruptores-cintas-transportadoras.html"
     },
     {
         category: "Detección de nivel de punto",
         img: "./assets/img/products/deteccion_nivel_punto/Rotary-Level-Switches_1.jpg",
-        url: "./deteccion-nivel.html"
+        url: "./deteccion-nivel-punto.html"
     },
     {
         category: "Interruptores de velocidad",
@@ -22,12 +22,12 @@ export const categories = [
     {
         category: "Detectores de metales",
         img: "./assets/img/products/detectores_metales/Model-50_2.jpg",
-        url: "./detectores-metal.html"
+        url: "./detectores-metales.html"
     },
     {
-        category: "Muestradores",
+        category: "Muestreadores",
         img: "./assets/img/products/muestradores/1.png",
-        url: "./muestradores.html"
+        url: "./muestreadores.html"
     },
     {
         category: "Dosificadores",

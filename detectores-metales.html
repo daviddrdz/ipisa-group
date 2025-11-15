@@ -19,7 +19,7 @@
         <link href='https://cdn.boxicons.com/3.0.3/fonts/basic/boxicons.min.css' rel='stylesheet'>
         <link rel="stylesheet" href="./assets/css/style.css" />
         <link rel="stylesheet" href="./assets/css/style-categories.css" />
-        <title>IPISA Group | Interruptores para cintas transportadoras</title>
+        <title>IPISA Group | Detectores de metales</title>
     </head>
 
     <body>
@@ -28,28 +28,28 @@
         </div>
         <div id="nav"></div>
 
-        <section>
-            <div class="top-section container my-5">
-                <img class="bg" src="./assets/img/products/interruptores_cintas_transportadoras/BM-2C_2.jpg" alt="background">
-                <div class="desc">
-                    <h1>Interruptores para cintas transportadoras</h1>
-                    <p>Los interruptores para transportadores de Bulk Pro Systems son instrumentos de proceso diseñados para proteger la cinta transportadora contra daños o a los operadores en caso de emergencia.</p>
+                <section class="categoria-encabezado">
+            <div class="categoria-encabezado__info container my-5">
+                <img class="categoria-encabezado__bg" src="./assets/img/products/detectores_metales/bg.jpg" alt="background">
+                <div class="categoria-encabezado__desc">
+                    <h1 class="categoria-encabezado__titulo">Detectores de metales</h1>
+                    <p class="categoria-encabezado__texto">Un detector de metales está diseñado para detectar metales ferrosos y no ferrosos en una cinta transportadora en movimiento.</p>
                 </div>
             </div>
         </section>
 
-        <div class="container my-5">
-            <div class="info">
-                <h3>Información</h3>
-                <p>Bulk Pro Systems ofrece una línea completa de interruptores para cintas transportadoras que incluye interruptores de cordón, interruptores de desalineación de cinta, interruptores de posición y detectores de daños en la cinta. Disponemos de modelos con homologaciones CE, CSA y para ubicaciones peligrosas. Todos los interruptores para cintas transportadoras de Bulk Pro Systems están fabricados para las aplicaciones industriales más exigentes, con carcasas de aluminio fundido a presión, ejes de acero inoxidable 304 y un acabado de uretano epoxi amarillo horneado. Estos interruptores se utilizan actualmente en cintas transportadoras de todo el mundo. Los interruptores para cintas transportadoras de Bulk Pro Systems le permitirán detener rápidamente una cinta transportadora, le protegerán de costosas reparaciones y le darán tranquilidad.</p>
+        <div class="categoria-info container my-5">
+            <div class="categoria-info__desc">
+                <h3 class="categoria-info__desc-titulo">Información</h3>
+                <p class="categoria-info__texto" id="texto">Bulk Pro Systems distribuye muchos tipos diferentes de detectores de metales y determinará cuál es el más adecuado para su aplicación.<br><br>Resistentes y confiables, los detectores de metales extraños de Bulk Pro Systems están diseñados para detectar y discriminar entre materiales conductores y metales, tanto magnéticos como no magnéticos, ferrosos y no ferrosos.<br><br>Nuestros detectores son compatibles con cintas transportadoras de tela y núcleo de acero. Protegen los equipos de procesamiento posteriores al detectar la presencia de objetos metálicos potencialmente dañinos.<br><br>Tanto si busca piezas metálicas grandes como muy pequeñas, Bulk Pro Systems tiene un detector que se adapta a su aplicación.</p>
             </div>
-            <div class="products">
-                <h3>Productos</h3>
+            <div class="categoria-info__accion">
+                <button class="categoria-info__boton" id="botonMostrar"><i class='bx  bx-arrow-down-stroke'></i> Mostrar mas</button>
+            </div>
+            <div class="categoria-info__productos">
+                <h3 class="categoria-info__productos-titulo">Productos</h3>
                 <div class="cards-grid" id="cards-container"></div>
             </div>
-        </div>
-
-        <div class="container my-5">
         </div>
 
         <div id="footer"></div>
@@ -61,11 +61,12 @@
         ></script>
         <script src="./assets/js/partials/include.js"></script>
         <script src="./assets/js/views/main.js"></script>
+        <script src="./assets/js/views/categorias.js"></script>
         <script type="module">
             import { renderCards } from "./assets/js/features/renderCards.js";
             import { products } from "./assets/js/data/products.js";
             document.addEventListener("DOMContentLoaded", () => {
-                const productos = products.filter((p) => p.category == "Interruptores para cintas transportadoras");
+                const productos = products.filter((p) => p.category == "Detector de metales");
                 renderCards(productos);
             })
         </script>

@@ -9,5 +9,5 @@ document.addEventListener("DOMContentLoaded", () => {
         return;
     }
 
-    document.getElementById("mensaje").innerHTML = `Me gustaría obtener más información de ${product.title}`;
+    document.getElementById("mensaje").innerHTML = `Estoy interesado en ${product.category} ${product.title}`;
 });
