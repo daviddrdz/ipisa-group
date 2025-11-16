@@ -26,12 +26,12 @@ export const categories = [
     },
     {
         category: "Muestreadores",
-        img: "/assets/img/products/muestradores/1.png",
+        img: "/assets/img/products/muestreadores/1.png",
         url: "/productos/muestreadores.html"
     },
     {
         category: "Dosificadores",
-        img: "/assets/img/products/dosificadores/1.png",
+        img: "/assets/img/products/dosificadores/F52.png",
         url: "/productos/dosificadores.html"
     }
 ]

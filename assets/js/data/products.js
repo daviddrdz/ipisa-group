@@ -172,7 +172,7 @@ export const products = [
     },
     {
         id: 20,
-        title: "Modelo SST 500",
+        title: "Modelo SST-500",
         category: "Muestreador",
         shortDesc: "Esta estación de muestreo trabaja preferentemente con altos flujos (50 a 300 m3/hr) de líquidos y pulpas, donde se garantiza que el total del flujo será muestreado independientemente de sus características de flujo general.",
         desc:
@@ -181,12 +181,12 @@ export const products = [
     },
     {
         id: 21,
-        title: "Bottom Serie 100/300",
+        title: "Sistema de muestreo modelo Bottom Dump Serie 100/300",
         category: "Muestreador",
         shortDesc: "Dentro de los productos BULK Pro tiene una gama de productos para sistemas de muestreo para sólidos. De los cuales la línea pone a sus manos el sistema de muestreo Modelo Bottom serie 100 o serie 300.",
         desc:
             "El Muestreador Primario Bottom es un componente del sistema que tiene la función de tomar una muestra de material, a partir de la descarga en caída libre de un transportador. Este material puede ser depositado en un colector de botes, para posteriormente ser retirados por personal de la planta. El muestreador toma una muestra cada determinado periodo de tiempo, considerando su modo de empleo, si el usuario elige el modo automático o el modo manual.",
-        img: "",
+        img: "/assets/img/products/muestreadores/bottom-dump.png",
     },
     {
         id: 22,
@@ -195,7 +195,7 @@ export const products = [
         shortDesc: "La máquina de muestreo SWAX de tipo barrido ofrece un método económico y sencillo para obtener una muestra representativa directamente de un flujo principal de material. Se obtienen incrementos directos de cintas transportadoras en movimiento, horizontales o inclinadas.",
         desc:
             "La máquina de muestreo de barrido ha sido sometida a rigurosas pruebas de campo, en colaboración con un extenso programa de investigación y desarrollo. La máquina SWAX cumple con las especificaciones ASTM e ISO. Se ofrecen repuestos y servicio técnico para todos los equipos de muestreo con poca antelación. La máquina SWAX es ideal para el muestreo de carbón, piedra caliza, arena, roca triturada, grava y minerales ferrosos y no ferrosos. Debido a su instalación y a su facilidad de uso, el muestreador de barrido se adapta fácilmente a los sistemas de cintas transportadoras de materiales a granel existentes. Con más de 40 años de experiencia en ingeniería y fabricación, nuestros sistemas de muestreo son reconocidos mundialmente como los mejores del mercado.",
-        img: "",
+        img: "/assets/img/products/muestreadores/SWAX.png",
     },
     {
         id: 23,
@@ -204,7 +204,7 @@ export const products = [
         shortDesc: "Dentro de los productos Bulk tiene una gama de productos para sistemas de muestreo, para sólidos, líquidos, pulpas, entre otros. De los cuales la pone a sus manos el modelo CS-400.",
         desc:
             "El muestreador CS-400 es un sistema cuyo objetivo es obtener una muestra representativa de un flujo de material constante en estado sólido, húmedo ó de lodos en caída libre cada cierto tiempo, colectando solo la cantidad necesaria en un recipiente para su posterior análisis en un laboratorio ó donde el cliente defina su destino final. El sistema de muestreo CS-400 es utilizado para aplicaciones sencillas de muestreo de sólidos y líquidos o pulpas, donde el cortador va suspendido, haciéndolo un equipo de fácil aplicación.",
-        img: "",
+        img: "/assets/img/products/muestreadores/CS400.png",
     }, 
     {
         id: 24,
@@ -213,7 +213,7 @@ export const products = [
         shortDesc: "El Muestreador GMD-500 es un sistema cuyo objetivo básico es obtener una muestra representativa de un flujo de material constante en estado húmedo o seco en caída libre cada tiempo, colectando solo la cantidad necesaria en un depósito especial cerrado para manejo de laboratorio o como el cliente defina su destino final.",
         desc:
             "La unidad de control tiene un timer en el cual el operador del sistema puede programar el intervalo de tiempo según el tiempo requerido entre los muestreos. Esta unidad es operada por un gabinete de control que contiene todos los controles necesarios para la operación tanto en forma manual, como en forma automática. El timer es de fácil programación y para cambiar el rango de trabajo, el usuario lo puede hacer desde un PLC interno.",
-        img: "",
+        img: "/assets/img/products/muestreadores/GMD-500.png",
     },
     {
         id: 25,
@@ -222,7 +222,7 @@ export const products = [
         shortDesc: "El sistema alimentador de cinta con pesaje Modelo F-53 está diseñado para alimentar materiales industriales con alta precisión a altos caudales en aplicaciones exigentes. Su robusto diseño en voladizo permite retirar la cinta fácilmente. Un bastidor tipo viga en I o tipo canal proporciona una plataforma resistente para el carro de la báscula.",
         desc:
             "El alimentador de cinta con pesaje Modelo F-53 está diseñado para una precisión excepcional en materiales con altos caudales y densidades aparentes, en sus aplicaciones más exigentes. El Modelo F-53 le permite controlar con precisión los caudales de alimentación de su proceso con una precisión garantizada de ±0,5 %. Puede soportar caudales superiores a 1000 TPH (816 MTPH) y cargas de cinta de 300 lb/pie (816 kg/m). Le ayuda a automatizar su sistema de trituración, proporciona un control de procesos más eficiente y le brinda información crucial para el funcionamiento de su planta.",
-        img: "",
+        img: "/assets/img/products/dosificadores/F53.png",
     },
     {
         id: 26,
@@ -231,7 +231,7 @@ export const products = [
         shortDesc: "El sistema alimentador de cinta con pesaje Modelo F-52 está diseñado para alimentar materiales industriales con alta precisión a caudales intermedios. Su robusto diseño en voladizo permite una fácil extracción de la cinta. Un bastidor, ya sea de tipo viga en I o de canal, proporciona una plataforma resistente para el carro de la báscula.",
         desc:
             "El alimentador de cinta con pesaje Modelo F-52 está diseñado para una alta precisión en materiales con caudales y densidad aparente intermedios. Está construido para entornos industriales exigentes, le permite controlar con precisión los caudales de alimentación de su proceso con una precisión garantizada de ±0,5 %. Puede ayudarle a automatizar su sistema de mezcla, proporcionar un control de procesos más eficiente y brindarle información crucial para el funcionamiento de su planta. El alimentador de cinta de pesaje incorpora un conjunto de báscula de pórtico flotante único, el sensor de velocidad de cinta Modelo N60, la potente electrónica basada en microprocesador del integrador Modelo 6805 de Bulk Pro.",
-        img: "",
+        img: "/assets/img/products/dosificadores/F52.png",
     },
     {
         id: 27,
@@ -240,7 +240,7 @@ export const products = [
         shortDesc: "El sistema alimentador de cinta con pesaje Modelo F-51 está diseñado para alta precisión, bajas velocidades de alimentación y materiales de baja densidad. Su diseño único ofrece un flujo constante de diversos materiales, lo cual es importante para su proceso. Su Facilidad de mantenimiento, sus piezas de bajo desgaste y su fiabilidad le brindarán tranquilidad.",
         desc:
             "El alimentador de cinta con pesaje Modelo F-51 está diseñado para una alta precisión en materiales con bajos caudales y densidades aparentes. Puede utilizarse tanto en entornos alimentarios como industriales. El Modelo F-51 le permite controlar con precisión el caudal de alimentación de su proceso con una precisión garantizada de ±0,5 %. Puede ayudarle a automatizar su sistema de mezcla, asegurar una dosificación precisa de aditivos, proporcionarle un mejor control del proceso y ofrecerle información crucial para el funcionamiento de su planta.",
-        img: "",
+        img: "/assets/img/products/dosificadores/F51.png",
     },
     {
         id: 28,
@@ -249,7 +249,7 @@ export const products = [
         shortDesc: "La línea BULK Pro en su larga experiencia en sistemas de dosificación y pesaje, cuenta con un sistema que combina ambas. Estos sistemas son de gran utilidad en aplicaciones donde los dosificadores de banda no pueden ser utilizados.",
         desc:
             "El Dosificador Helicoidal es un alimentador para materiales a granel y polvos el cual permite regular su dosificación mediante el control del giro del gusano helicoidal. El modelo del helicoidal es totalmente cerrado, el cual, al transportar un material a través de este, permite pesarlo. El sistema cuenta con un punto pivote en el cual descansa un extremo del helicoidal, y la referencia de peso lo hace mediante el brazo de palanca que se ejerce. El sistema cuenta con un sensor de pesaje colocado en un extremo del gusano y en el otro es soportado por un punto pivote.",
-        img: "",
+        img: "/assets/img/products/dosificadores/helicoidal.png",
     },
     {
         id: 29,
@@ -258,7 +258,7 @@ export const products = [
         shortDesc: "La línea BULK Pro ofrece un innovador sistema de dosificación, el cual incluye una tolva de pesaje para calibración. El sistema está diseñado para trabajar con cualquier material a granel.",
         desc:
             "La línea BULK Pro ha diseñado un nuevo sistema que incluye una tolva de pesaje para calibración. El sistema es integral y permite asegurar al usuario a través de este novedoso método para calibración, que sus transacciones de Compra-Venta estarán certificadas. El sistema se fabrica de acuerdo a las condiciones de operación requeridas y manejará diferentes capacidades para lo cual se podrá seleccionar la banda dosificadora y la capacidad de la tolva requerida para cumplir con la regulación de agencias internacionales. Este sistema puede contar con el kit de calibración automático “Auto-Cal” con pesos patrones certificados de forma remota a través de un PLC ó un DCS. BULK Pro con su experiencia es capaz de realizar, un sistema que se adecue a sus necesidades.",
-        img: "",
+        img: "/assets/img/products/dosificadores/dosificador_certificado.png",
     },
 
 ];
