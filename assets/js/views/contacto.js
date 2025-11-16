@@ -11,3 +11,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
     document.getElementById("mensaje").innerHTML = `Estoy interesado en ${product.category} ${product.title}`;
 });
+
+/* const botonEnviar = document.getElementById("enviar");
+botonEnviar.addEventListener("click", (e) => {
+    swal("Correo enviado", "El correo ha sido enviado", "success");
+}); */
