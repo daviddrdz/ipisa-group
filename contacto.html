@@ -53,21 +53,21 @@
         <div class="contacto-info container my-5">
             <div class="contacto-formulario" id="formulario">
                 <h2 class="contacto-formulario__titulo">Mandanos un correo</h2>
-                <form action="" method="POST" class="contacto-formulario__form">
+                <form action="https://api.web3forms.com/submit" method="POST" class="contacto-formulario__form">
                     <label for="empresa" class="contacto-formulario__label">Empresa <span class="requerido">*</span></label>
-                    <input type="text" id="empresa" class="contacto-formulario__input" required />
+                    <input type="text" name="empresa" id="empresa" class="contacto-formulario__input" required />
 
                     <label for="nombre" class="contacto-formulario__label">Nombre <span class="requerido">*</span></label>
-                    <input type="text" id="nombre" class="contacto-formulario__input" required />
+                    <input type="text" name="nombre" id="nombre" class="contacto-formulario__input" required />
 
                     <label for="correo" class="contacto-formulario__label">Correo electrónico <span class="requerido">*</span></label>
-                    <input type="email" id="correo" class="contacto-formulario__input" required />
+                    <input type="email" name="email" id="correo" class="contacto-formulario__input" required />
 
                     <label for="telefono" class="contacto-formulario__label">Teléfono</label>
-                    <input type="tel" id="telefono" class="contacto-formulario__input" >
+                    <input type="tel" name="telefono" id="telefono" class="contacto-formulario__input" >
 
                     <label for="mensaje" class="contacto-formulario__label">Mensaje <span class="requerido">*</span></label>
-                    <textarea id="mensaje" class="contacto-formulario__textarea" required></textarea>
+                    <textarea id="mensaje" name="mensaje" class="contacto-formulario__textarea" required></textarea>
 
                     <p class="contacto-formulario__nota">Nota: Asegurese de haber llenado sus datos correctamente, de lo contrario no nos podremos poner en contacto con usted.</p>
                     <input type="submit" value="Enviar" id="enviar" class="contacto-formulario__boton" />
