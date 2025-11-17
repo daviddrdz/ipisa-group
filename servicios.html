@@ -17,8 +17,9 @@
             crossorigin="anonymous"
         />
         <link href='https://cdn.boxicons.com/3.0.3/fonts/basic/boxicons.min.css' rel='stylesheet'>
-        <link rel="stylesheet" href="./assets/css/style.css" />
-        <title>IPISA Group | Inicio</title>
+        <link rel="stylesheet" href="/assets/css/style.css" />
+        <link rel="stylesheet" href="/assets/css/style-servicios.css" />
+        <title>IPISA Group | Servicios</title>
     </head>
 
     <body>
@@ -27,13 +28,43 @@
         </div>
         <div id="nav"></div>
 
+        <section class="servicios-encabezado">
+            <div class="container my-5">
+                <img class="servicios-encabezado__bg" src="/assets/img/misc/servicios-bg.jpg" alt="background" />
+                <div class="servicios-encabezado__info">
+                    <h1 class="servicios-encabezado__titulo">Nuestros servicios</h1>
+                    <p>En el sector minero, la precisión y continuidad operativa son clave.</p>
+                </div>
+            </div>
+        </section>
+
+        <div class="servicios container my-5">
+            <p class="servicios__texto">Ofrecemos servicios especializados de mantenimiento mecánico para:</p>
+            <ul class="servicios__texto">
+                <li>Sistemas de pesaje dinámico sobre bandas transportadoras</li>
+                <li>Dosificadores de flujo continuo y por pérdida de peso</li>
+                <li>Sistemas automáticos de muestreo de sólidos a granel</li>
+            </ul>
+            <p class="servicios__texto">Nuestros servicios incluyen entre otros:</p>
+            <ul class="servicios__texto">
+                <li>Diagnóstico técnico y ajuste de componentes mecánicos</li>
+                <li>Reemplazo de celdas de carga, rodillos, reductores y sensores</li>
+                <li>Calibración y verificación de precisión conforme a normas OIML/NTEP</li>
+                <li>Asesoría para mejoras en eficiencia y confiabilidad operativa</li>
+            </ul>
+            <p class="servicios__texto">Garantizamos cumplimiento con estándares internacionales <span>(ISO, ASTM, NMX)</span> y protocolos de seguridad industrial.</p>
+            <p class="servicios__texto">Cobertura en <span>todo México.</span></p>
+            <p class="servicios__texto">Contáctanos para una evaluación sin costo y propuestas personalizadas.</p>
+            <button class="servicios__boton" onclick="location.href='/contacto.html'">Contactanos</button>
+        </div>
+
         <div id="footer"></div>
         <script
             src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
             crossorigin="anonymous"
         ></script>
-        <script src="./assets/js/partials/include.js"></script>
-        <script src="./assets/js/views/main.js"></script>
+        <script src="/assets/js/partials/include.js"></script>
+        <script src="/assets/js/views/main.js"></script>
     </body>
 </html>
