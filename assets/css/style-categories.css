@@ -51,9 +51,11 @@
     background-color: none;
     outline: none;
     border: none;
+    transition: all 0.2s ease;
 }
 .categoria-info__boton:hover {
     cursor: pointer;
+    background-color: #ebebeb;
 }
 
 .categoria-info__productos {
