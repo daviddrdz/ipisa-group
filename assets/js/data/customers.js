@@ -1,9 +1,5 @@
 export const customers = [
     {
-        name: "Thermo Fisher",
-        img: "/assets/img/customers/thermo-fisher.png",
-    },
-    {
         name: "Fresnillo",
         img: "/assets/img/customers/fresnillo.png",
     },
@@ -55,4 +51,24 @@ export const customers = [
         name: "GoldCorp",
         img: "/assets/img/customers/goldcorp.svg",
     },
+    {
+        name: "Ternium",
+        img: "/assets/img/customers/ternium.png",
+    },
+    {
+        name: "Techint",
+        img: "/assets/img/customers/techint.svg",
+    },
+    {
+        name: "Peñoles",
+        img: "/assets/img/customers/penoles.png",
+    },
+    {
+        name: "ArcelorMittal",
+        img: "/assets/img/customers/arcelormittal.png",
+    },
+    {
+        name: "DeAcero",
+        img: "/assets/img/customers/deacero.png",
+    }
 ];
