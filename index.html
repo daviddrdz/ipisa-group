@@ -28,19 +28,38 @@
         </div>
         <div id="nav"></div>
 
-        <section>
-            <img class="bg" src="./assets/img/misc/section-bg.jpg">
-            <div class="info">
-                <img src="./assets/img/misc/ipisa-logo.png">
-                <h3 class="fs-3">Más de 30 años de experiencia en la industria</h3>
+        <section class="encabezado">
+            <img class="encabezado__bg" src="/assets/img/misc/section-bg.jpg">
+            <div class="encabezado-info">
+                <img src="/assets/img/misc/ipisa-logo.png" class="encabezado__logo">
+                <h3 class="encabezado__texto">Más de 30 años de experiencia en la industria</h3>
+                <button onclick="location.href='/contacto.html'" class="encabezado__boton">Contactanos</button>
             </div>
         </section>
 
-        <div class="container my-5 nuestros-productos">
-            <h2>Nuestros productos</h2>
-            <div class="categories" id="categories">
+        <div class="categorias container my-5">
+            <h2 class="categorias__titulo">Nuestros productos</h2>
+            <div class="categorias__contenedor" id="categorias">
             </div>
         </div>
+
+        <section class="servicios">
+            <img class="servicios__bg" src="/assets/img/misc/servicios-bg.jpg" />
+            <div class="servicios-info container my-5">
+                <div class="servicios-info__izquierda">
+                    <h2 class="servicios__titulo">Nuestros servicios</h2>
+                    <p class="servicios__texto">En el sector minero, la precisión y continuidad operativa son clave.</p>
+                    <ul class="servicios__lista">
+                        <li class="servicios__texto">Contamos con servicios especializados de mantenimiento mecánico entre otros</li>
+                        <li class="servicios__texto">Garantizamos cumplimiento con estándares internacionales <span>(ISO, ASTM, NMX)</span> y protocolos de seguridad industrial.</li>
+                        <li class="servicios__texto">Cobertura en <span>todo México.</span></li>
+                    </ul>
+                </div>
+                <div class="servicios-info__derecha">
+                    <button class="servicios__boton" onclick="location.href='/servicios.html'">Ver nuestros servicios</button>
+                </div>
+            </div>
+        </section>
 
         <div class="container desc mx-auto d-flex flex-column my-5">
             <div class="vanguardia">
@@ -89,7 +108,7 @@
         ></script>
         <script src="./assets/js/partials/include.js"></script>
         <script src="./assets/js/views/main.js"></script>
-        <script type="module" src="./assets/js/features/renderCategories.js"></script>
+        <script type="module" src="./assets/js/features/renderCategorias.js"></script>
         <script type="module" src="./assets/js/features/renderCustomers.js"></script>
     </body>
 </html>
