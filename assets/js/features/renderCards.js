@@ -1,39 +1,39 @@
-function redirectCard(id) {
+function redireccionarCard(id) {
     window.location.href = `/productos/producto.html?id=${id}`;
 }
 
-export function createCard(product) {
+export function crearCard(producto) {
     const card = document.createElement("div");
-    card.className = "product-card";
-    card.onclick = () => redirectCard(product.id);
+    card.className = "card-producto";
+    card.onclick = () => redireccionarCard(producto.id);
     card.innerHTML = `
-        <div class="image">
-            <img src="${product.img}">
+        <div class="card-producto__img">
+            <img src="${producto.img}">
         </div>
-        <div class="category">
-            <p>${product.category}</p>
+        <div class="card-producto__categoria">
+            <p>${producto.categoria}</p>
         </div>
-        <div class="title">
-            <p>${product.title}</p>
+        <div class="card-producto__nombre">
+            <p>${producto.nombre}</p>
         </div>
-        <div class="info">
-            <button onclick="location.href='/productos/producto.html?id=${product.id}';">Más información</button>
+        <div class="card-producto__info">
+            <button onclick="location.href='/productos/producto.html?id=${producto.id}';">Más información</button>
         </div>
     `;
     return card;
 }
 
-export function renderCards(products) {
-    const container = document.getElementById("cards-container");
-    container.innerHTML = "";
-    if (products.length == 0) {
-        container.innerHTML = `
+export function renderCards(productos) {
+    const contenedor = document.getElementById("cards-container");
+    contenedor.innerHTML = "";
+    if (productos.length == 0) {
+        contenedor.innerHTML = `
             <p id="error-buscador">No se encontró el producto</p>
         `;
         return;
     }
-    products.forEach((p) => {
-        let card = createCard(p);
-        container.appendChild(card);
+    productos.forEach((p) => {
+        let card = crearCard(p);
+        contenedor.appendChild(card);
     });
 }

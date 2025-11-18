@@ -1,14 +1,68 @@
-/* Pagina Empresa */
-.mision-vision-politica {
-    transition: all 0.7s;
-    img {
-        max-width: 500px;
-        min-width: 100px;
+.nosotros {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+.nosotros-mision,
+.nosotros-vision,
+.nosotros-politica {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.nosotros__titulo {
+    font-weight: 600;
+    margin: 0 0 20px 0;
+}
+.nosotros__texto {
+    font-size: 18px;
+    margin: 0;
+}
+.nosotros__img {
+    height: 300px;
+    width: 500px;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+.nosotros__titulo,
+.nosotros__texto,
+.nosotros__img {
+    transition: all 0.2s ease;
+}
+.nosotros__titulo:hover,
+.nosotros__texto:hover,
+.nosotros__img:hover {
+    transform: scale(1.01);
+}
+.responsive {
+    display: none;
+}
+
+@media (width <= 1200px) {
+    .nosotros {
+        grid-template-columns: 1fr;
+        gap: 40px;
     }
-    img, h2, p {
-        transition: all 0.6s ease;
-        &:hover {
-            transform: scale(1.05);
-        }
+    .responsive-escritorio {
+        display: none;
+    }
+    .responsive {
+        display: initial
+    }
+}
+@media (width <= 600px) {
+    .nosotros__texto {
+        font-size: 16px;
+    }
+    .nosotros__img {
+        height: 200px;
+        width: 330px;
+    }
+}
+@media (width <= 400px) {
+    .nosotros__img {
+        height: 150px;
+        width: 250px;
     }
 }

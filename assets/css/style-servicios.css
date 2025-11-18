@@ -1,5 +1,4 @@
 .servicios-encabezado {
-    height: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -20,6 +19,10 @@
 }
 .servicios-encabezado__titulo {
     font-weight: 700;
+    margin: 0 0 10px 0;
+    text-shadow: 0 0 20px #ffffff;
+}
+.servicios-encabezado__texto {
     margin: 0;
 }
 
@@ -28,26 +31,42 @@
     flex-direction: column;
 }
 .servicios__titulo {
-    margin: 0 0 30px 0;
+    font-weight: 600;
+    margin: 0 0 20px 0;
 }
 .servicios__desc {
     display: flex;
     gap: 30px;
-    margin: 0 0 50px 0;
+    margin: 0 0 30px 0;
+}
+.servicios__lista {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 20px;
+    transition: all 0.2s ease;
+}
+.servicios__lista:hover {
+    transform: scale(1.01);
 }
 .servicios__texto {
     font-size: 20px;
 }
-.servicios__texto span {
-    font-weight: 600;
+.servicios__garantia {
+    font-size: 18px;
+    text-align: center;
+}
+.servicios__contacto {
+    margin: 30px 0 15px 0;
+    font-weight: 500;
+    text-align: center;
 }
 .servicios__boton {
     background-color: #ff4646;
     color: #ffffff;
-    margin: 50px auto 0 auto;
+    margin: 0 auto;
     width: 300px;
     padding: 10px;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 600;
     border-radius: 5px;
     border: none;
@@ -56,4 +75,33 @@
 }
 .servicios__boton:hover {
     background-color: #b53030;
+}
+
+@media (width <= 770px) {
+    .servicios-encabezado__texto {
+        font-size: 18px;
+    }
+    .servicios__desc {
+        flex-direction: column;
+    }
+    .servicios__texto {
+        font-size: 18px;
+    }
+    .servicios__garantia {
+        font-size: 16px;
+    }
+    .servicios__contacto {
+        font-size: 16px;
+    }
+    .servicios__boton {
+        font-size: 16px;
+    }
+}
+@media (width <= 570px) {
+    .servicios__texto {
+        font-size: 16px;
+    }
+    .servicios-encabezado__titulo {
+        text-align: center;
+    }
 }

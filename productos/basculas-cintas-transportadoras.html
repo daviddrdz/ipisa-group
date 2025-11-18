@@ -18,7 +18,7 @@
         />
         <link href='https://cdn.boxicons.com/3.0.3/fonts/basic/boxicons.min.css' rel='stylesheet'>
         <link rel="stylesheet" href="/assets/css/style.css" />
-        <link rel="stylesheet" href="/assets/css/style-categories.css" />
+        <link rel="stylesheet" href="/assets/css/style-categorias.css" />
         <title>IPISA Group | Basculas de cintas transportadoras</title>
     </head>
 
@@ -40,14 +40,14 @@
 
         <div class="categoria-info container my-5">
             <div class="categoria-info__desc">
-                <h3 class="categoria-info__desc-titulo">Información</h3>
+                <h3 class="categoria-info__titulo">Información</h3>
                 <p class="categoria-info__texto" id="texto">El sistema requiere dos parámetros generales para funcionar. En primer lugar, necesita conocer el peso del material que se transporta a lo largo de la cinta transportadora y, en segundo lugar, necesita conocer la velocidad a la que se mueve a lo largo de la cinta transportadora.<br><br>El peso del material en la cinta se determina pesando una sección de la cinta transportadora cargada con material y restando luego el peso medio de la cinta sin carga. La velocidad a la que se mueve el material se determina midiendo la velocidad de una rueda o rodillo en contacto con la cinta transportadora. El peso y la velocidad se combinan para obtener un total acumulado y una tasa de flujo del material.<br><br>El funcionamiento correcto del sistema de báscula requiere que los componentes se instalen correctamente, se calibren periódicamente y se mantengan adecuadamente.<br><br>Bulk Pro Systems, LLC fabrica muchos modelos diferentes de básculas de cinta personalizadas para adaptarse a su aplicación. Nuestros modelos consisten en básculas de cinta de control de proceso de una sola rueda loca hasta básculas de cinta de alta precisión de múltiples ruedas locas con precisiones de más o menos 1% a más o menos 0.125%</p>
             </div>
             <div class="categoria-info__accion">
                 <button class="categoria-info__boton" id="botonMostrar"><i class='bx  bx-arrow-down-stroke'></i> Mostrar mas</button>
             </div>
             <div class="categoria-info__productos">
-                <h3 class="categoria-info__productos-titulo">Productos</h3>
+                <h3 class="categoria-info__titulo">Productos</h3>
                 <div class="cards-grid" id="cards-container"></div>
             </div>
         </div>
@@ -63,10 +63,10 @@
         <script src="/assets/js/views/main.js"></script>
         <script type="module">
             import { renderCards } from "/assets/js/features/renderCards.js";
-            import { products } from "/assets/js/data/products.js";
+            import { productos } from "/assets/js/data/productos.js";
             document.addEventListener("DOMContentLoaded", () => {
-                const productos = products.filter((p) => p.category == "Báscula de cinta transportadora");
-                renderCards(productos);
+                const producto = productos.filter((p) => p.categoria == "Báscula de cinta transportadora");
+                renderCards(producto);
             })
         </script>
         <script src="/assets/js/views/categorias.js"></script>

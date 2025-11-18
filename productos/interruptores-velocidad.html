@@ -18,7 +18,7 @@
         />
         <link href='https://cdn.boxicons.com/3.0.3/fonts/basic/boxicons.min.css' rel='stylesheet'>
         <link rel="stylesheet" href="/assets/css/style.css" />
-        <link rel="stylesheet" href="/assets/css/style-categories.css" />
+        <link rel="stylesheet" href="/assets/css/style-categorias.css" />
         <title>IPISA Group | Interruptores de velocidad</title>
     </head>
 
@@ -64,10 +64,10 @@
         <script src="/assets/js/views/categorias.js"></script>
         <script type="module">
             import { renderCards } from "/assets/js/features/renderCards.js";
-            import { products } from "/assets/js/data/products.js";
+            import { productos } from "/assets/js/data/productos.js";
             document.addEventListener("DOMContentLoaded", () => {
-                const productos = products.filter((p) => p.category == "Interruptor de velocidad");
-                renderCards(productos);
+                const producto = productos.filter((p) => p.categoria == "Interruptor de velocidad");
+                renderCards(producto);
             })
         </script>
     </body>

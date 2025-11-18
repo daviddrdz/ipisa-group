@@ -1,5 +1,5 @@
 .productos__titulo {
-    margin: 0 0 25px 0;
+    margin: 50px 0 15px 0;
 }
 
 .productos__buscador {
@@ -32,8 +32,8 @@
     }
 }
 
-@media (max-width: 767px) {
-    .buscador {
+@media (max-width: 770px) {
+    .productos__buscador {
         justify-content: center;
     }
 }

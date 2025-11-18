@@ -21,6 +21,7 @@
 .contacto-encabezado__titulo {
     font-weight: 700;
     margin: 0 0 15px 0;
+    text-shadow: 0 0 20px #ffffff;
 }
 .contacto-encabezado__rol {
     margin: 0;
@@ -33,6 +34,7 @@
     font-weight: 600;
     gap: 5px;
     margin-right: 10px;
+    text-shadow: 0 0 20px #ffffff;
 }
 .contacto-encabezado__item {
     display: flex;
@@ -129,8 +131,21 @@
     .contacto-encabezado__titulo {
         text-align: center;
     }
+    .contacto-encabezado__rol {
+        font-size: 20px;
+    }
     .contacto-encabezado__item {
+        font-size: 18px;
         flex-direction: column;
         align-items: start;
+    }
+    .contacto-formulario__label {
+        font-size: 18px;
+    }
+    .contacto-formulario__nota {
+        font-size: 12px;
+    }
+    .contacto-formulario__boton {
+        font-size: 16px;
     }
 }

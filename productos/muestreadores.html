@@ -18,7 +18,7 @@
         />
         <link href='https://cdn.boxicons.com/3.0.3/fonts/basic/boxicons.min.css' rel='stylesheet'>
         <link rel="stylesheet" href="/assets/css/style.css" />
-        <link rel="stylesheet" href="/assets/css/style-categories.css" />
+        <link rel="stylesheet" href="/assets/css/style-categorias.css" />
         <title>IPISA Group | Muestreadores</title>
     </head>
 
@@ -31,7 +31,7 @@
         <section class="categoria-encabezado">
             <div class="categoria-encabezado__info container my-5">
                 <img class="categoria-encabezado__bg" src="/assets/img/products/muestreadores/2.png" alt="background">
-                <div class="categoria-encabezado__desc my-5">
+                <div class="categoria-encabezado__desc">
                     <h1 class="categoria-encabezado__titulo">Muestreadores</h1>
                     <p class="categoria-encabezado__texto">Los Muestreadores objetivo básico es obtener una muestra representativa de un flujo de material constante en estado húmedo o seco en caída libre, tubería o sobre la banda transportadora, a un tiempo determinado, colectando solo la cantidad necesaria en un depósito especial cerrado</p>
                 </div>
@@ -64,10 +64,10 @@
         <script src="/assets/js/views/categorias.js"></script>
         <script type="module">
             import { renderCards } from "/assets/js/features/renderCards.js";
-            import { products } from "/assets/js/data/products.js";
+            import { productos } from "/assets/js/data/productos.js";
             document.addEventListener("DOMContentLoaded", () => {
-                const productos = products.filter((p) => p.category == "Muestreador");
-                renderCards(productos);
+                const producto = productos.filter((p) => p.categoria == "Muestreador");
+                renderCards(producto);
             })
         </script>
     </body>

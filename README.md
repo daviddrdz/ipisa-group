@@ -1,9 +1,5 @@
 # IPISA Group
 
-Pagina web para la empresa Ipisa Group
+Pagina web para la empresa IPISA Group
 
-
-## To do
-
-- Estilizar servicios.html
-- Modificar archivos css
+🔗 https://ipisa-group.vercel.app/

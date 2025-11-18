@@ -36,12 +36,11 @@
     background-color: transparent;
     color: #ffffff;
     border: 2px solid #ffffff;
-    margin-top: 30px;
+    margin: 30px 0 50px 0;
     padding: 20px;
     font-size: 20px;
     font-weight: 600;
     transition: all 0.2s ease;
-    margin-bottom: 50px;
 }
 .encabezado__boton:hover {
     background-color: #ff4646;
@@ -68,10 +67,10 @@
     .encabezado__boton {
         font-size: 16px;
         padding: 10px;
+        margin: 20px 0 30px 0;
     }
 }
 .servicios {
-    height: 300px;
     margin: 70px 0 0 0;
     display: flex;
     justify-content: center;
@@ -134,10 +133,12 @@
     background-color: #ff4646;
 }
 
+.vanguardia__texto,
+.garantia__texto {
+    font-size: 20px;
+}
+
 @media (width <= 990px) {
-    .servicios {
-        height: 450px;
-    }
     .servicios-info {
         flex-direction: column;
         gap: 50px;
@@ -151,18 +152,21 @@
     }
 }
 @media (width <= 768px) {
-    .servicios {
-        height: 500px;
-    }
-    .servicios__texto {
+    .servicios__texto,
+    .vanguardia__texto,
+    .garantia__texto {
         font-size: 18px;
     }
 }
 @media (width <= 500px) {
-    .servicios {
-        height: 550px;
+    .servicios__texto,
+    .servicios__boton,
+    .vanguardia__texto,
+    .garantia__texto {
+        font-size: 16px;
     }
 }
+
 
 /* Descripcion */
 .desc {

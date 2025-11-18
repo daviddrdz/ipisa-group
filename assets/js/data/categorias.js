@@ -33,5 +33,10 @@ export const categorias = [
         nombre: "Dosificadores",
         img: "/assets/img/products/dosificadores/F52.png",
         url: "/productos/dosificadores.html"
+    },
+    {
+        nombre: "Colectores de polvo",
+        img: "/assets/img/products/colectores_polvo/cover.png",
+        url: "/productos/colectores-polvo.html"
     }
 ]
