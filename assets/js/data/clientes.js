@@ -28,7 +28,7 @@ export const clientes = [
         img: "/assets/img/customers/cfe.png",
     },
     {
-        nombre: "Minera Autlan",
+        nombre: "Minera Autlán",
         img: "/assets/img/customers/minera-autlan.png",
     },
     {
@@ -44,7 +44,7 @@ export const clientes = [
         img: "/assets/img/customers/cruz-azul.png",
     },
     {
-        nombre: "Grupo Mexico",
+        nombre: "Grupo México",
         img: "/assets/img/customers/grupomex.png",
     },
     {

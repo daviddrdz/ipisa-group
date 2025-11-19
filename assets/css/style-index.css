@@ -26,7 +26,8 @@
 }
 .encabezado__logo {
     height: 300px;
-    filter: drop-shadow(0 0 10px #545454);
+    /*filter: drop-shadow(0 0 10px #545454);*/
+    filter: drop-shadow(0 0 20px #545454)
 }
 .encabezado__texto {
     margin-top: 15px;

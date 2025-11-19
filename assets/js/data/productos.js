@@ -3,7 +3,7 @@ export const productos = [
         id: 1,
         nombre: "N-61 Banda transportadora con rodillo único",
         categoria: "Báscula de cinta transportadora",
-        descCorta: "Báscula de cinta transportadoraEl sistema de báscula de cinta Bulk Pro Systems modelo N-61 está diseñado para aplicaciones de pesaje de todo tipo en entornos industriales adversos.",
+        descCorta: "Báscula de cinta transportadora. El sistema de báscula de cinta Bulk Pro Systems modelo N-61 está diseñado para aplicaciones de pesaje de todo tipo en entornos industriales adversos.",
         desc: [
             "El modelo N-61 le permite controlar las velocidades de alimentación de trituradoras, cribas, pilas de almacenamiento y otros procesos con una precisión garantizada del +1%.",
             "Su diseño resistente y todo en uno se instala fácilmente. Es adecuado para aplicaciones no críticas y de menor valor en las que se requiere un caudal instantáneo y una totalización para el control de procesos y las necesidades de productividad."
@@ -54,7 +54,7 @@ export const productos = [
         descCorta: "Los interruptores del modelo BD-3 Belt Damage Detector son accesorios de seguridad para cintas transportadoras diseñados para interconectarse con los sistemas de parada de la cinta transportadora en caso de que se produzca un daño en la cinta.",
         desc: [
             "Se montan por pares, uno a cada lado de la correa, con los cables cruzándose en el centro.",
-            "In the event where something is sticking through the belt or a splice has failed it will come in contact with these cables pulling the ball out of the socket at the switch. This will cause the red actuator arm to displace from its normal position tripping both micro switches inside.",
+            "En caso de que algo se atasque en la correa o se rompa un empalme, entrará en contacto con estos cables y sacará la bola de su encaje en el interruptor. Esto hará que el brazo actuador rojo se desplace de su posición normal, activando los dos microinterruptores internos.",
             "Un interruptor para el apagado y otro para la activación de la alarma. Este sencillo sistema protegerá las cintas transportadoras de costosas reparaciones y tiempos de inactividad debidos a daños en la cinta.",
             "El detector de daños en correas BD-3 se puede pedir en versiones estándar, con certificación CE y CSA.",
             "La versión BD-3X aprobada por CSA también está aprobada para Clase II, Div. 1 y 2, Grupos E, F y G."
@@ -121,7 +121,7 @@ export const productos = [
         categoria: "Interruptor para cinta transportadora",
         descCorta: "El interruptor de cordón de tracción modelo SS-2C es un accesorio de seguridad para transportadores diseñado para enclavarse con los sistemas de parada del transportador en caso de mantenimiento o emergencia.",
         desc: [
-            "When force is applied to the cable on either side of the switch the actuator arm rotates and locks in the alarm position.",
+            "Cuando se aplica fuerza al cable a ambos lados del interruptor, el brazo del actuador gira y se bloquea en la posición de alarma.",
             "Esto activa dos microinterruptores y el bloqueo manual.",
             "Una vez finalizado el mantenimiento o resuelta la emergencia, el interruptor se puede restablecer presionando y soltando la palanca de restablecimiento manual.",
             "Los interruptores de cordón modelo SS-2C suelen montarse en el lado de la pasarela de la transportadora o en situaciones en las que se puede acceder a la transportadora desde el suelo.",
@@ -171,7 +171,7 @@ export const productos = [
             "El BMRX está diseñado para proporcionar seguridad frente a fallos de alimentación del sistema, fácil acceso a todos los componentes y un rendimiento fiable. Cuenta con la misma carcasa a prueba de explosiones que es estándar en todos los interruptores de nivel de paleta.",
             "El BMRX es una solución rentable y fácil de implementar para un control fiable del nivel de punto.",
             "Diseñado para durar mucho tiempo.",
-            "Bulk Pro fabrica el BMRX con un motor síncrono especialmente diseñado que cuenta con un funcionamiento ';'desenergizado'. El motor se apaga automáticamente cuando hay material presente, en lugar de permanecer en un estado de 'bloqueo'. Esto minimiza el 'desgaste' y reduce la temperatura de funcionamiento para prolongar la vida útil del motor.",
+            "Bulk Pro fabrica el BMRX con un motor síncrono especialmente diseñado que cuenta con un funcionamiento 'desenergizado'. El motor se apaga automáticamente cuando hay material presente, en lugar de permanecer en un estado de 'bloqueo'. Esto minimiza el 'desgaste' y reduce la temperatura de funcionamiento para prolongar la vida útil del motor.",
             "Además, el motor cuenta con un embrague deslizante bidireccional integrado que protege el conjunto de engranajes contra daños causados por una rotación excesiva. El BMRX tiene un conjunto de eje de transmisión estándar de cuatro cojinetes que reduce la resistencia del motor durante la rotación de las paletas."
         ],
         img: "/assets/img/products/deteccion_nivel_punto/Rotary-Level-Switches_1.jpg"
@@ -249,7 +249,7 @@ export const productos = [
         categoria: "Muestreador",
         descCorta: "Dentro de los productos BULK Pro se cuenta con una gama de productos para sistemas de muestreo de líquidos. De los cuales la línea BULK PRO pone en sus productos el sistema de muestreo PM-1800, siendo un sistema versátil para el usuario.",
         desc: [
-            "El muestreador PM-1800 es diseñado para una línea automática de muestreo de líquidos, enviados a través de una tubería. El muestreador cuenta con un cortador el cual es montado a través de un pistón neumático directamente a una tubería. Este pistón tomara la muestra cada determinado periodo de tiempo. El periodo puede ser ajustado por un gabinete de control interconectado eléctricamente el cual controla la válvula del pistón, el control puede ser colocado montado en un lugar local o en un lugar remoto. El tiempo de muestreo puede ser ajustado para el control del numero de muestras y la cantidad que el cliente requiera, para su posterior análisis."
+            "El muestreador PM-1800 es diseñado para una línea automática de muestreo de líquidos, enviados a través de una tubería. El muestreador cuenta con un cortador el cual es montado a través de un pistón neumático directamente a una tubería. Este pistón tomará la muestra cada determinado periodo de tiempo. El periodo puede ser ajustado por un gabinete de control interconectado eléctricamente el cual controla la válvula del pistón, el control puede ser colocado montado en un lugar local o en un lugar remoto. El tiempo de muestreo puede ser ajustado para el control del número de muestras y la cantidad que el cliente requiera, para su posterior análisis."
         ],
         img: "/assets/img/products/muestreadores/PM-1800.png",
     },
@@ -290,7 +290,7 @@ export const productos = [
         categoria: "Muestreador",
         descCorta: "Dentro de los productos Bulk tiene una gama de productos para sistemas de muestreo, para sólidos, líquidos, pulpas, entre otros. De los cuales la pone a sus manos el modelo CS-400.",
         desc: [
-            "El muestreador CS-400 es un sistema cuyo objetivo es obtener una muestra representativa de un flujo de material constante en estado sólido, húmedo ó de lodos en caída libre cada cierto tiempo, colectando solo la cantidad necesaria en un recipiente para su posterior análisis en un laboratorio ó donde el cliente defina su destino final. El sistema de muestreo CS-400 es utilizado para aplicaciones sencillas de muestreo de sólidos y líquidos o pulpas, donde el cortador va suspendido, haciéndolo un equipo de fácil aplicación."
+            "El muestreador CS-400 es un sistema cuyo objetivo es obtener una muestra representativa de un flujo de material constante en estado sólido, húmedo o de lodos en caída libre cada cierto tiempo, colectando solo la cantidad necesaria en un recipiente para su posterior análisis en un laboratorio o donde el cliente defina su destino final. El sistema de muestreo CS-400 es utilizado para aplicaciones sencillas de muestreo de sólidos y líquidos o pulpas, donde el cortador va suspendido, haciéndolo un equipo de fácil aplicación."
         ],
         img: "/assets/img/products/muestreadores/CS400.png",
     }, 
@@ -351,7 +351,7 @@ export const productos = [
         categoria: "Dosificador",
         descCorta: "La línea BULK Pro ofrece un innovador sistema de dosificación, el cual incluye una tolva de pesaje para calibración. El sistema está diseñado para trabajar con cualquier material a granel.",
         desc: [
-            "La línea BULK Pro ha diseñado un nuevo sistema que incluye una tolva de pesaje para calibración. El sistema es integral y permite asegurar al usuario a través de este novedoso método para calibración, que sus transacciones de Compra-Venta estarán certificadas. El sistema se fabrica de acuerdo a las condiciones de operación requeridas y manejará diferentes capacidades para lo cual se podrá seleccionar la banda dosificadora y la capacidad de la tolva requerida para cumplir con la regulación de agencias internacionales. Este sistema puede contar con el kit de calibración automático “Auto-Cal” con pesos patrones certificados de forma remota a través de un PLC ó un DCS. BULK Pro con su experiencia es capaz de realizar, un sistema que se adecue a sus necesidades."
+            "La línea BULK Pro ha diseñado un nuevo sistema que incluye una tolva de pesaje para calibración. El sistema es integral y permite asegurar al usuario a través de este novedoso método para calibración, que sus transacciones de Compra-Venta estarán certificadas. El sistema se fabrica de acuerdo a las condiciones de operación requeridas y manejará diferentes capacidades para lo cual se podrá seleccionar la banda dosificadora y la capacidad de la tolva requerida para cumplir con la regulación de agencias internacionales. Este sistema puede contar con el kit de calibración automático “Auto-Cal” con pesos patrones certificados de forma remota a través de un PLC o un DCS. BULK Pro con su experiencia es capaz de realizar, un sistema que se adecue a sus necesidades."
         ],
         img: "/assets/img/products/dosificadores/dosificador_certificado.png",
     },

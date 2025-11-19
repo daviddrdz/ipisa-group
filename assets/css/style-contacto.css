@@ -1,5 +1,4 @@
 .contacto-encabezado {
-    height: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -23,10 +22,21 @@
     margin: 0 0 15px 0;
     text-shadow: 0 0 20px #ffffff;
 }
-.contacto-encabezado__rol {
-    margin: 0;
-    font-size: 22px;
+.contacto-encabezado__subtitulo {
     font-weight: 600;
+    text-shadow: 0 0 20px #ffffff;
+}
+.contacto-encabezado__contenedor {
+    display: flex;
+    gap: 100px;
+}
+.contacto-encabezado__subtitulo,
+.contacto-encabezado__texto {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 18px;
+    margin: 0;
 }
 .contacto-encabezado__icono {
     display: flex;
@@ -124,10 +134,17 @@
         margin: 50px 0 25px 0;
     }
 }
-@media (width <= 570px) {
-    .contacto-encabezado {
-        height: 250px;
+@media (width <= 770px) {
+    .contacto-encabezado__contenedor {
+        flex-direction: column;
+        gap: 20px;
     }
+    .contacto-encabezado__subtitulo,
+    .contacto-encabezado__texto {
+        font-size: 16px;
+    }
+}
+@media (width <= 570px) {
     .contacto-encabezado__titulo {
         text-align: center;
     }

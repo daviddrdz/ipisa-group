@@ -11,7 +11,7 @@ function renderCategorias() {
         categoria.className = "categoria";
         categoria.onclick = () => redirectCategorias(categorias[i].url);
         categoria.innerHTML = `
-            <img src="${categorias[i].img}" class="categoria__img" alt=${categorias[i].nombre}">
+            <img src="${categorias[i].img}" class="categoria__img" alt="${categorias[i].nombre}">
             <p class="categoria__nombre">${categorias[i].nombre}</p>
         `;
         container.appendChild(categoria);
